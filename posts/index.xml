@@ -5,16 +5,16 @@
     <link>https://yichabod.github.io/posts/</link>
     <description>Recent content in Posts on Max Langenkamp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Jun 2021 22:00:25 -0500</lastBuildDate><atom:link href="https://yichabod.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yichabod.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test_post</title>
+      <title>Why I&#39;m researching open source ML</title>
       <link>https://yichabod.github.io/posts/test_post/</link>
-      <pubDate>Fri, 25 Jun 2021 22:00:25 -0500</pubDate>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://yichabod.github.io/posts/test_post/</guid>
-      <description>Testing Text
-Mark down Italic Bold
-Smaller  bullet bullet  indented bullet    </description>
+      <description>Why I&amp;rsquo;m researching open source ML The story I tell depends on whether I&amp;rsquo;m writing a grant or talking to a collaborator. The short honest reason I tell myself is that it&amp;rsquo;s fun and probably useful, which I&amp;rsquo;d contend are basically the two most useful criteria when making decisions about work.
+It&amp;rsquo;s fun because I love trying new things.
+It&amp;rsquo;s probably useful because open source ML (which you will see me use interchangeably with open source AI — sticklers please forgive me) is important but understudied.</description>
     </item>
     
   </channel>
