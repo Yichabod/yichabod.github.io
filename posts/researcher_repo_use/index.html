@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>What repositories do ML practitioners use most?</title>
+    <meta name="description" content="A simple monospaced resume theme for Hugo.">
+    <meta name="author" content='Max Langenkamp'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://yichabod.github.io/favicon.ico">
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://yichabod.github.io" title="Max Langenkamp">
+          
+          Max Langenkamp
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/posts" title="writing">
+                        writing
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/projects" title="projects">
+                        projects
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://maxlangenkamp.substack.com/" title="newsletter">
+                        newsletter
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://twitter.com/mslkmp" title="twitter">
+                        twitter
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="what-repositories-do-ml-practitioners-use-most-a-review-of-surveys">What repositories do ML practitioners use most?: A review of surveys</h1>
+<p>As part of my quest to find the most important machine learning repositories, I wanted to find the repos that are used most frequently.</p>
+<p>This post is my attempt to gauge the most popular libraries using direct surveys of people who do some type of work with machine learning. I start with the public survey data I could find before going into the private survey I did. Ultimately, I find that this approach can’t stand on its own, but that it is useful as a rapid initial look.</p>
+<h3 id="public-survey-results">Public Survey Results</h3>
+<p>It was pretty hard to find data about which machine learning repositories practitioners
+use the most. A naive search turned up Buzzfeed-esque listicles with titles like
+&lsquo;Top 10 Machine Learning Projects on Github&rsquo; from websites like analyticsvidhya.com
+and analyticsindiamag.com[1]. I was hoping for a survey aggregating responses from
+multiple people. The closest thing I could find was the <a href="https://www.kaggle.com/kaggle-survey-2020">2020 Kaggle Developer Survey</a>.</p>
+<p><img src="/kaggle_repo_use.png" alt="From Kaggle State of Machine Learning and Data Science 2020"></p>
+<p>Note that the totals sum to more than 100% because the survey is multi-choice.</p>
+<p>Kaggle is a company that charges companies to host data science competitions that solve a data science problem of theirs (Netflix famously had a $1M collaborative filtering algorithm <a href="https://www.kaggle.com/netflix-inc/netflix-prize-data">challenge</a> in 2019)[3]. It is accordingly centered on ML engineers and data scientists, whom I care less about than researchers.</p>
+<p>Scikit-learn, Keras, XGBoost, and LightGBM are are libraries that are designed for relatively standard classification and regression tasks. The popularity of these libraries on Kaggle suggest a heavy focus on model engineering and development, rather than novel research.</p>
+<p>In looking through the rest of the survey I was surprised to learn that most Kaggle users come from India (~23%) and that the modal user had less than 2 years of experience in machine learning.</p>
+<h3 id="private-survey-results">Private Survey Results</h3>
+<p>I wanted another source of survey data, so I did a quick survey of eight ML practitioners[2]. Here is a chart of their responses.</p>
+<p><img src="/ML_repo_use.png" alt="A survey of eight machine learning practitioners"></p>
+<p>What are these packages?</p>
+<p><em>PyTorch</em> and <em>TensorFlow</em> are used mainly for model specification.</p>
+<p><em>NumPy</em> is used for manipulating tensors and arrays easily and efficiently.</p>
+<p><em>Scikit-Learn</em> has many functions, but often it is used for pre-specified models that can be run with a single line.</p>
+<p><em>Matplotlib, TensorBoard,</em> and <em>Weights and Biases</em> are used for visualizations. <em>Matplotlib</em> mainly for training data and model outputs. <em>TensorBoard</em> and <em>Weights and Biases</em> are more for experiment logging and visualizing network weights.</p>
+<p><em>Jupyter notebook</em> is a simple development environment mainly used for quickly playing around with visualizations.</p>
+<p><em>Hydra</em> is best for specifying complex model configurations (e.g. multiple jobs with different arguments).</p>
+<p><em>Huggingface</em> is for easily manipulating language models.</p>
+<p>Only responses that had more than one user were included in the bar graph. Other repositories mentioned were <em>pytorch_lightning, elasticsearch, s3, opencv, pyro, nltk, horovod, gym, e3nn, einops, grafana, biopython</em>.</p>
+<h3 id="discussion">Discussion</h3>
+<p>So what did I learn?</p>
+<p>First, the lack of consensus between the Kaggle survey and my private survey suggests that I need to keep searching. The long tail of libraries mentioned only once is also strong evidence for this.</p>
+<p>Also, I was surprised by the lack of public data about ML repository use. To me, this suggests that a little more digging might be useful after all.</p>
+<p>Next, I plan to analyze the Github data pulled from collections of repositories like the Linux Foundation’s AI landscape, and of course awesome-ml.</p>
+<p>Have I missed anything? Do let me know at maxslangenkamp[at]me.com</p>
+<hr>
+<p>[1] The phenomenon of clickbait-y programming blogs from India is fascinating. What
+were the cultural factors that caused such a proliferation of Indian blogs?</p>
+<p>[2] The question I used was &ldquo;Can you describe the 5-10 libraries you most regularly
+use for doing ML research and how they fit into your workflow?&rdquo;</p>
+<p>[3] In practice, however, it seems like companies more or less use Kaggle as a recruiting platform; the solutions crafted by participants often don&rsquo;t translate well to actual use cases.</p>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    <hr>
+    <div class="container text-center">
+        
+            <a href="https://twitter.com/mslkmp" class="fab fa-twitter fa-1x" title="Twitter"></a>
+        
+            <a href="https://www.linkedin.com/in/max-langenkamp-2aa6b435/" class="fab fa-linkedin fa-1x" title="LinkedIn"></a>
+        
+            <a href="mailto:maxlangenkamp@me.com" class="fas fa-envelope fa-1x" title="E-mail"></a>
+        
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://github.com/ojroques/hugo-researcher" title="By Max Langenkamp"><small>By Max Langenkamp</small></a>
+        </div>
+    
+</div>
+</body>
+</html>
