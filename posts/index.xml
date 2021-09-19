@@ -5,7 +5,17 @@
     <link>https://yichabod.github.io/posts/</link>
     <description>Recent content in Posts on Max Langenkamp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yichabod.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yichabod.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What repositories do ML practitioners use most?</title>
+      <link>https://yichabod.github.io/posts/researcher_repo_use/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/researcher_repo_use/</guid>
+      <description>What repositories do ML practitioners use most?: A review of surveys As part of my quest to find the most important machine learning repositories, I wanted to find the repos that are used most frequently.
+This post is my attempt to gauge the most popular libraries using direct surveys of people who do some type of work with machine learning. I start with the public survey data I could find before going into the private survey I did.</description>
+    </item>
+    
     <item>
       <title>Questions about Economic Growth</title>
       <link>https://yichabod.github.io/posts/questions_about_growth/</link>
@@ -16,16 +26,6 @@
 Questions about Growth There is much ado about economic growth1. I wanted to better understand the debate, so I decided to collect the key questions. This essay is a breadth-first examination of growth and governance using questions
 Why questioning instead of summarizing?
 Questioning requires understanding the intention of research in a way that summarizing does not.</description>
-    </item>
-    
-    <item>
-      <title>What repositories do ML practitioners use most?</title>
-      <link>https://yichabod.github.io/posts/researcher_repo_use/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://yichabod.github.io/posts/researcher_repo_use/</guid>
-      <description>What repositories do ML practitioners use most?: A review of surveys As part of my quest to find the most important machine learning repositories, I wanted to find the repos that are used most frequently.
-This post is my attempt to gauge the most popular libraries using direct surveys of people who do some type of work with machine learning. I start with the public survey data I could find before going into the private survey I did.</description>
     </item>
     
     <item>
