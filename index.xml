@@ -5,7 +5,19 @@
     <link>https://yichabod.github.io/</link>
     <description>Recent content on Max Langenkamp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yichabod.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yichabod.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Questions about Governance</title>
+      <link>https://yichabod.github.io/posts/questions_about_governance/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/questions_about_governance/</guid>
+      <description>This is a live document. If you have any suggestions, please let me know at maxlangenkamp[at]me.com
+Questions about Governance: A Primer Earlier on, I collected some key questions about economic growth. This page is my attempt to gather the key questions about governance.
+As before, I found this exercise especially useful. I will also be using the descriptive/normative division to organize the questions.
+A brief note before I get to the questions: as David Levi-Faur points out in the Oxford Handbook of Governance, &amp;lsquo;governance&amp;rsquo; has been introduced only very recently.</description>
+    </item>
+    
     <item>
       <title>What repositories do ML practitioners use most?</title>
       <link>https://yichabod.github.io/posts/researcher_repo_use/</link>
