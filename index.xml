@@ -31,6 +31,16 @@ Questioning requires understanding the intention of research in a way that summa
     </item>
     
     <item>
+      <title>What is an institution? Introducing an institutional grammar</title>
+      <link>https://yichabod.github.io/posts/institution/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/institution/</guid>
+      <description>What is an institution? Introducing Ostrom&amp;rsquo;s institutional grammar This is part of my series on Ostrom. You can also find the root page here.
+&amp;lsquo;How should we define institutions?&#39;[1] This is a difficult but surprisingly important question; at its core, traditional political science is about the study of institutions. Also, if we want to talk about governance, we need also a vocabulary to discuss the setting where governance takes place. Questions like &amp;ldquo;most open source software repositories are governed democratically&amp;rdquo; remain painfully vague without a precise vocabulary.</description>
+    </item>
+    
+    <item>
       <title>Why I&#39;m researching open source ML</title>
       <link>https://yichabod.github.io/posts/why_os/</link>
       <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
@@ -38,7 +48,7 @@ Questioning requires understanding the intention of research in a way that summa
       <guid>https://yichabod.github.io/posts/why_os/</guid>
       <description>Why I&amp;rsquo;m researching open source ML The story I tell depends on whether I&amp;rsquo;m writing a grant or talking to a collaborator. The short honest reason I tell myself is that it&amp;rsquo;s fun and probably useful, which I&amp;rsquo;d contend are basically the two most useful criteria when making decisions about work.
 It&amp;rsquo;s fun because I love trying new things.
-It&amp;rsquo;s probably useful because open source ML (which you will see me use interchangeably with open source AI — sticklers please forgive me) is important yet neglected.</description>
+It&amp;rsquo;s probably useful because open source ML is important yet neglected.</description>
     </item>
     
     <item>
