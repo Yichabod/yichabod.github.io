@@ -40,15 +40,15 @@ A brief note before I get to the questions: as David Levi-Faur points out in the
     </item>
     
     <item>
-      <title>Questions about Economic Growth</title>
-      <link>https://yichabod.github.io/posts/questions_about_growth/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://yichabod.github.io/posts/decentralized_governance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yichabod.github.io/posts/questions_about_growth/</guid>
-      <description>This is a live document. If you have any suggestions, please let me know at maxlangenkamp[at]me.com
-Questions about Growth There is much ado about economic growth1. I wanted to better understand the debate, so I decided to collect the key questions. This essay is a breadth-first examination of growth and governance using questions
-Why questioning instead of summarizing?
-Questioning requires understanding the intention of research in a way that summarizing does not.</description>
+      <guid>https://yichabod.github.io/posts/decentralized_governance/</guid>
+      <description>Governing the Decentralized Commons Taking a digital constitutionalism lens to Web3
+Enoshima in Sagami Province, from the series &amp;ldquo;Thirty-six Views of Mount Fuji (富嶽三十六景)&amp;rdquo;
+At the beginning of the Tokugawa shogunate (1600-1868), there were several agrarian villages in the Yamanashi prefecture. During the civil wars that led to the overthrow of the Ashikaga shogunate, vast swathes of land became commons — the open fields belonged to no feudal lord1.
+Amid this free-for-all, some villagers began to take more than their due — reaping more rice crops than was sustainable, cutting down trees than could naturally regrow.</description>
     </item>
     
     <item>
@@ -61,26 +61,26 @@ Questioning requires understanding the intention of research in a way that summa
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://yichabod.github.io/about/</link>
+      <title></title>
+      <link>https://yichabod.github.io/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yichabod.github.io/about/</guid>
-      <description>About Me  This is a Hugo based resume template. You can find the full source code on GitHub.
-Research Interest Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis1. Mauris id urna ante.
-Fusce pharetra diam ac nisi aliquet, velegestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit2. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.</description>
+      <guid>https://yichabod.github.io/writing/</guid>
+      <description>Essays Governing the Decentralized Commons December 12th, 2021
+Taking an Ostrom-informed digital constitutionalism lens to Web3. This also serves as an introduction to my project with Metagov.
+Pruning in Brains and Machines December 10th, 2021
+“At one point, you and I were just a fertilized egg cell inside our mother’s womb. Over the next eight months, we grew a brain. When our mother gave birth to us, we were wet and confused.</description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>https://yichabod.github.io/contact/</link>
+      <title>Questions about Economic Growth</title>
+      <link>https://yichabod.github.io/posts/questions_about_growth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yichabod.github.io/contact/</guid>
-      <description> Email: foo@xyz.com Phone: +91-123123   Mailing Address  221B, Baker Street
-London
-United Kingdom
-  Social  Facebook Twitter Google+  </description>
+      <guid>https://yichabod.github.io/posts/questions_about_growth/</guid>
+      <description>This is a live document. If you have any suggestions, please let me know at maxlangenkamp[at]me.com
+Questions about Growth There is much ado about economic growth1. I wanted to better understand the debate, so I decided to collect the key questions. This essay is a breadth-first examination of growth and governance using questions
+Why questioning instead of summarizing? Questioning requires understanding the intention of research in a way that summarizing does not.</description>
     </item>
     
   </channel>
