@@ -40,6 +40,37 @@ A brief note before I get to the questions: as David Levi-Faur points out in the
     </item>
     
     <item>
+      <title>What repositories do ML practitioners use most?</title>
+      <link>https://yichabod.github.io/posts/researcher_repo_use/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/researcher_repo_use/</guid>
+      <description>What repositories do ML practitioners use most?: A review of surveys As part of my quest to find the most important machine learning repositories, I wanted to find the repos that are used most frequently.
+This post is my attempt to gauge the most popular libraries using direct surveys of people who do some type of work with machine learning. I start with the public survey data I could find before going into the private survey I did.</description>
+    </item>
+    
+    <item>
+      <title>Why I&#39;m researching open source ML</title>
+      <link>https://yichabod.github.io/posts/why_os/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/why_os/</guid>
+      <description>Why I&amp;rsquo;m researching open source ML The story I tell depends on whether I&amp;rsquo;m writing a grant or talking to a collaborator. The short honest reason I tell myself is that it&amp;rsquo;s fun and probably useful, which I&amp;rsquo;d contend are basically the two most useful criteria when making decisions about work.
+It&amp;rsquo;s fun because I love trying new things.
+It&amp;rsquo;s probably useful because open source ML is important yet neglected.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yichabod.github.io/posts/2021_review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/2021_review/</guid>
+      <description>Gorgeous Chemical Fires Note: you are one of a small number of people getting this update (because I care about you or else you are sasha chapin). Perhaps it should go without out saying but I request that you please don’t share this without asking beforehand. (Subnote: the original version of this was hosted on substack and I&amp;rsquo;ve repasted it here so all the links are missing)
+As I start this letter, I am 10,000 meters above the ground, squeezed between two strangers with a polypropylene mask over my face.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://yichabod.github.io/posts/decentralized_governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,6 +101,15 @@ Amid this free-for-all, some villagers began to take more than their due — rea
 Taking an Ostrom-informed digital constitutionalism lens to Web3. This also serves as an introduction to my project with Metagov.
 Pruning in Brains and Machines December 10th, 2021
 “At one point, you and I were just a fertilized egg cell inside our mother’s womb. Over the next eight months, we grew a brain. When our mother gave birth to us, we were wet and confused.</description>
+    </item>
+    
+    <item>
+      <title>Ostrom&#39;s Teachings</title>
+      <link>https://yichabod.github.io/posts/telescopic_poem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/telescopic_poem/</guid>
+      <description>  const content = ` * I * Yawning, I * Yawning, Yawning, Yawning * I saw her * made * tea * love`; const node = createTelescopicTextFromBulletedList(content); const container = document.getElementById(&#34;text-container&#34;); container.appendChild(node);   </description>
     </item>
     
     <item>

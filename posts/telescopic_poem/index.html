@@ -2,7 +2,7 @@
 <html lang=""><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Why I&#39;m researching open source ML</title>
+    <title>Ostrom&#39;s Teachings</title>
     <meta name="description" content="Max&#39;s personal website">
     <meta name="author" content='Max Langenkamp'>
 
@@ -65,18 +65,21 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h1 id="why-im-researching-open-source-ml">Why I&rsquo;m researching open source ML</h1>
-<p>The story I tell depends on whether I&rsquo;m writing a grant or talking to a collaborator. The short honest reason I tell myself is that it&rsquo;s fun and probably useful, which I&rsquo;d contend are basically the two most useful criteria when making decisions about work.</p>
-<p>It&rsquo;s fun because I love trying new things.</p>
-<p>It&rsquo;s probably useful because open source ML is important yet neglected.</p>
-<p>If we want to understand the trajectory of artificial intelligence, it&rsquo;s important to understand the governance of the underlying software infrastructure.</p>
-<p>In my grant application, I pointed out that most discussions of the AI <a href="https://en.wikipedia.org/wiki/Production_function">production function</a> talk about algorithms, data, talent, and compute, but make no mention of the underlying software infrastructure. Virtually all machine learning researchers and developers use open source tools like <a href="pytorch.org/">PyTorch</a> and <a href="https://www.tensorflow.org/">TensorFlow</a>. These are <em>entirely free</em>, and which, in principle, anyone can contribute to<sup id="a1"><a href="#g1">1</a></sup>. (Note that this is a historical anomaly)</p>
-<p>I also study the open source ecosystem because I think it&rsquo;s beautiful. I hope to
-better capture this in a future post, but suffice it for now to say that there
-is a richness of culture and generosity in the open source space that brings me
-hope for the future. More on this soon.</p>
-<hr>
-<p><b id="g1">1.</b> Note that this is a historical anomaly; nuclear capabilities, satellites, and cell phones were all developed in secret and &lsquo;closed source&rsquo;. <a href="#a1">↩</a></p>
+    <div id="text-container"></div>
+<script>
+    const content = `
+* I 
+  * Yawning, I
+    * Yawning, Yawning, Yawning
+        * I saw her
+* made 
+* tea
+    * love`;
+    const node = createTelescopicTextFromBulletedList(content);
+    const container = document.getElementById("text-container");
+    container.appendChild(node);
+</script><blockquote>
+</blockquote>
 
 </div>
 
