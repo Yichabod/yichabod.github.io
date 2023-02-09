@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <meta name="description" content="Max&#39;s personal website">
+    <meta name="author" content='Max Langenkamp'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://yichabod.github.io/favicon.ico">
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://yichabod.github.io" title="Max Langenkamp">
+          
+          Max Langenkamp
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/writing" title="writing">
+                        writing
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/projects" title="projects">
+                        projects
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://maxlangenkamp.substack.com/" title="newsletter">
+                        newsletter
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://twitter.com/mslkmp" title="twitter">
+                        twitter
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="objecting-to-decision-theory">Objecting to Decision Theory</h1>
+<p>Two years ago, <em>Tuomas</em> and I took a seminar on decision theory taught by Caspar Hare. I was hoping to learn how to <a href="https://deaexmachinus.substack.com/p/machines-society-15-amorous-indecision">make better decisions</a>, or else see what all the <a href="https://www.lesswrong.com/tag/decision-theory">rationalist hype</a> was about<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. <em>Tuomas</em> was interested in its applications to AI safety.</p>
+<p>As the zealous intellectuals, <em>Tuomas</em> and I were allured by the taste of abstract thought experiments that grew more bizarre and dizzying as we read onwards. An offer leading to a series of infinite coin flips. An oracle presenting two boxes.</p>
+<p>At the end of the class, we weren’t sure what to make of the intellectual mess of decision theory, and came away with a sense that the project as a whole was rather doomed.</p>
+<p>Over the next two years, we consolidated our reasons into a slightly more coherent objection to the project of decision theory. The conversation below is our attempt to describe our current stance on the unworkability of decision theory.</p>
+<p><strong>Note</strong>:</p>
+<p>I expect that the people who will find this conversation most interesting will have some prior context on decision theory.</p>
+<p>Our objections are not particularly novel, and this conversation was not intended to sway a seasoned decision theorist. Instead, it is a modest attempt to articulate the stance of two people who earnestly thought about decision theory for about half a year and changed their minds.</p>
+<h4 id="background-reading">Background reading</h4>
+<p><a href="https://plato.stanford.edu/entries/decision-theory/">SEP: context on decision theory </a></p>
+<p><a href="https://philarchive.org/rec/CHATPO-5">Ruth Chang’s Possibility of Parity</a></p>
+<p><a href="https://web.archive.org/web/20190331225650/http://faculty.arts.ubc.ca/rjohns/nozick_newcomb.pdf">Newcomb’s Problem and the Two Principles of Choice</a></p>
+<p><a href="https://nickbostrom.com/ethics/infinite.pdf">Bostrom’s Infinite Ethics</a></p>
+<p><a href="https://metarationality.com/probabilism-applicability">Chapman against probabilistic rationality</a></p>
+<p><a href="https://academic.oup.com/analysis/article-abstract/70/2/237/94178">Caspar Hare on lacking all-things-considered preferences</a></p>
+<h4 id="sampled-quotes">Sampled quotes</h4>
+<p>“I don&rsquo;t think that it&rsquo;s we&rsquo;re not we&rsquo;re not smart enough. And I don&rsquo;t think this means decision theory is useless. How I think about it now, is that decision theory, like probability theory, is a tool that is really useful in certain domains. And what we, what we&rsquo;ve done by bringing into these normative contexts, is we&rsquo;ve taken the tool out of out of its useful domain, and it&rsquo;s breaking down.”</p>
+<p>“one thing that this does make me think of is that decision theory is a subset of thinking more generally, or thinking in cognition, your thinking isn&rsquo;t good for everything in your life. In fact, it&rsquo;s good for a small subset of things. It&rsquo;s good for when you have explicit problems. And, you know, problems aren&rsquo;t things that exist out there. They&rsquo;re more of like a way of seeing things.”</p>
+<h3 id="table-of-contents">Table of contents</h3>
+<p><a href="#what-we-wanted-from-decision-theory">What we wanted from decision theory</a></p>
+<p><a href="#the-origins-of-decision-theory">The origins of decision theory</a></p>
+<p><a href="#social-choice-theory-and-decision-theory">Social choice theory and decision theory</a></p>
+<p><a href="#contemporary-approaches-to-decision-theory-normative-uncertainty-risk-adjusted-expected-utility">Contemporary approaches to decision theory; normative uncertainty, risk adjusted expected utility</a></p>
+<p><a href="#ruth-chang%E2%80%99s-on-the-possibility-of-parity">Ruth Chang’s On the Possibility of Parity</a></p>
+<p><a href="#bostrom's-problems-with-infinity">Bostrom’s problems with infinity</a></p>
+<p><a href="#newcomb%E2%80%99s-paradox-and-the-smoking-lesion">Newcomb’s paradox and the smoking lesion</a></p>
+<p><a href="#decision-theory-fails-on-its-own-terms">Decision theory fails on its own terms</a></p>
+<p><a href="#macaskill%E2%80%99s-normative-decision-theory">MacAskill&rsquo;s Normative Decision Theory</a></p>
+<p><a href="#metarational-considerations-in-decision-theory">Metarational considerations in decision theory</a></p>
+<p><a href="#what-constitutes-a-decision">What constitutes a decision?</a></p>
+<p><a href="#our-%E2%80%98utility-function%E2%80%99-changes-over-time">Our &lsquo;utility function&rsquo; changes over time</a></p>
+<h2 id="transcript">Transcript</h2>
+<h4 id="what-we-wanted-from-decision-theory">What we wanted from decision theory</h4>
+<p><em>Max</em>  0:01</p>
+<p>Okay, this is the proper start. Wow, it&rsquo;s kind of windy. Yeah. Okay, conversation on decision theory take one with Tuomas and Max. Okay, the structure, we want to talk about decision theory. Having taken a class A year ago, together by one of the semi notable decision theorists. And we&rsquo;ve thought about it a bit, a good amount during that semester, and we&rsquo;ve had about a year to reflect on it. So I think we should, I think we should go about this as we can talk about our experience, coming to decision theory, what we what we wanted from this class, we want to learn from it. The things we encountered within decision theory, both the frameworks and also the problems, and then we can have a broader reflection on what we think how we feel about decision theory now. So yeah, Tuomas, why, how? What made you want to study decision theory in the first place?</p>
+<p><em>Tuomas</em>  1:18</p>
+<p>I think you kind of convinced me to do it.</p>
+<p><em>Max</em>  1:20</p>
+<p>Oh, it was a it was a philosophy Capstone.</p>
+<p><em>Tuomas</em>  1:22</p>
+<p>Oh, yeah. It was required toward the like, Major. Yeah, yeah. Yeah. It was like interesting. More mathematical branch of philosophy. That&rsquo;s like, feels more familiar. Technical mind,</p>
+<p><em>Max</em>  1:40</p>
+<p>I convinced you to take it. I think you did. Yeah. You were taking this first.</p>
+<p><em>Tuomas</em>  1:44</p>
+<p>And then I like, switch from my other class into this one.</p>
+<p><em>Max</em>  1:48</p>
+<p>Because you could have taken another one that wasn&rsquo;t this one. Right.</p>
+<p><em>Tuomas</em>  1:52</p>
+<p>I think I kind of had to take this if I wanted to get the philosophy major</p>
+<p><em>Max</em>  1:55</p>
+<p>also, but you weren&rsquo;t convinced? Uh, yeah. We&rsquo;re gonna get it last week. Yeah.</p>
+<p><em>Tuomas</em>  1:58</p>
+<p>I wasn&rsquo;t sure if I would do that. Yeah.</p>
+<p><em>Max</em>  2:01</p>
+<p>And what did I say? Do you remember?</p>
+<p><em>Tuomas</em>  2:03</p>
+<p>I think you were saying that it&rsquo;s like, kind of like, like, you think it&rsquo;s like importance for like, like, you could be important for like AI safety? Yeah. You were pretty convinced of the importance of decision theory.</p>
+<p><em>Max</em>  2:20</p>
+<p>Yeah. Or at least that, that people who were pretty heavily influential and ASAP thought that decision theory was? Yeah, important. I think I personally was convinced to I just didn&rsquo;t know very much about it. Yeah, yeah. Yeah. And this is stuff on less wrong. And yeah, the rationalist writing about decision theory. AI safety.</p>
+<p><em>Tuomas</em>  2:44</p>
+<p>So what&rsquo;s what&rsquo;s like the summary of that position? It&rsquo;s like, decision theory helps us</p>
+<p><em>Max</em>  2:51</p>
+<p>well, you need to correct decision theory, if you want your AI to not reliably or to not act in a bad way against against the desires of people.</p>
+<p><em>Tuomas</em>  3:05</p>
+<p>Yeah, like? Like you&rsquo;re capable AI should sort of follow decision theory rules. Yeah, you need to figure out how to make the decision through theory work. So that like, the AI will also work.</p>
+<p><em>Max</em>  3:20</p>
+<p>Yeah. And I guess I should say now that I don&rsquo;t feel like I understand UDT, which is the alternative? Yeah. So I can&rsquo;t kind of I can dismiss that in technical detail. Or attack it or support it. Yeah. Yeah. But, yeah. So you came to it, because you had to do you had to get a philosophy Capstone major. And also, you were somewhat convinced is important for esafety. I don&rsquo;t think I actually, I think I took the class, because it was Casper hair. And Casper hair was the one who introduced me to philosophy when I was 14. Oh, I took the class, the MIT 2400 Introduction to Philosophy. And I was Yeah, I was really enamored, or it may be really like, to start to think about these things a lot.</p>
+<p><em>Tuomas</em>  4:15</p>
+<p>Yeah.</p>
+<p><em>Max</em>  4:17</p>
+<p>And I thought it&rsquo;d be fun. Yeah, I think. Also, also, I was not nearly not going to do it. It was a semester that I had off while I was working. Oh, yeah. Think Tank. And this was the one class I was considering doing. And I ended up deciding to do it just so that I could avoid paying health insurance. Yeah. Because I wasn&rsquo;t at I wouldn&rsquo;t be at MIT if I didn&rsquo;t take this class.</p>
+<p><em>Tuomas</em>  4:40</p>
+<p>Yeah. Yeah. Yeah, I think I was actually, I was less convinced by the AI safety argument, but I thought it&rsquo;s like, plausible. But yeah, I think you were saying that it&rsquo;s like a fun, good class. And it&rsquo;s actually interested</p>
+<p><em>Max</em>  4:57</p>
+<p>and that it would be fun for us</p>
+<p><em>Tuomas</em>  4:58</p>
+<p>to together Yeah. which it was, it was it was a good time.</p>
+<p><em>Max</em>  5:03</p>
+<p>Yeah. I also think that there&rsquo;s something about decision theory. The thing that drew me to decision theory is also in common with the thing that drew me to other philosophies or philosophy classes, strands of philosophical thought. Yeah. Which was I wanted to know the right way to decide or to act. Yeah. Yeah, yeah. I wanted a system that could tell me how to be and yeah, decision theory is kind of the ultimate promise of that. Yeah. Yeah. And so I thought, maybe if I understood decisions, yes, I was really good. At academic decision theory, then I could make the best decisions in my life. Yeah. Yeah. Which is an interesting stats.</p>
+<p><em>Tuomas</em>  5:51</p>
+<p>Yeah. <strong>So it seems like sort of the almost a grand promise of decision theory is like, like, it can really tell you sort of how to live your life</strong>. And like, also like, but not just you, it&rsquo;s like a system you can apply for an AI and like to do?</p>
+<p><em>Max</em>  6:13</p>
+<p>Well, it doesn&rsquo;t tell you precisely how to live your life. But almost like, given that you have you have some inclinations are able to have establish utilities for certain options, then it can tell you the best process for going about</p>
+<p><em>Tuomas</em>  6:27</p>
+<p>it. Yeah. Like there&rsquo;s like, room for like, what&rsquo;s, what are you optimizing for by like, given that, it&rsquo;s supposed to sort of tell you how to do it?</p>
+<h4 id="the-origins-of-decision-theory">The origins of decision theory</h4>
+<p><em>Max</em>  6:40</p>
+<p>Yeah. So I mean, that is, like the early. If we go back to the beginnings of decision theory, I think it comes about when von Neumann and Morgenstern start modeling an agent. And they propose that how you could make a rational decision is pretty straightforward. You just have a number of options, A, B, and C, and you assign values to each of the options. And then you multiply those by the probability of the options and then you choose kind of this problem ability weighted utility, you choose the highest probability weighted utility, and this was expected value. Yeah, this is expected this is what expected value is. Right. And first, it&rsquo;s most obvious in like casino like contexts, II, when you&rsquo;re playing probability games with coin flips, yeah, cards,</p>
+<p><em>Tuomas</em>  7:53</p>
+<p>you have a clear probabilities and like, clear prices, like money or usually money.</p>
+<p><em>Max</em>  8:02</p>
+<p>And I think what they were doing was, I actually don&rsquo;t know from the outset, if it was both normative and prescriptive. This is one thing. This is one kind of one distinction you can make about the different types of decision theory. One is claiming about how you should act and one is trying to describe how people actually actually, I think it&rsquo;s much more normative from the beginning.</p>
+<p><em>Tuomas</em>  8:26</p>
+<p>I think so yeah, I think I haven&rsquo;t really seen many people claim that people actually <em>Max</em>imize expected utility.</p>
+<p><em>Max</em>  8:40</p>
+<p>Yeah, so it&rsquo;s like the ideal rational agent. This is how they&rsquo;re supposed to behave.</p>
+<p><em>Tuomas</em>  8:43</p>
+<p>Yeah. Like this is how you should be.</p>
+<p><em>Max</em>  8:47</p>
+<p>And so it begins with just probabilities. So okay, this is like we&rsquo;ve talked about the why we wanted to do decision theory, we can talk a little bit about the substance of it begins with probability weighted, just like expected utility. But then this runs into some problems that are that are pointed out by people like Laura Buchak. I mean, actually, they&rsquo;re even they&rsquo;re even paradoxes early on before von Neumann and Morgenstern like the St. Petersburg paradox. Remember, that? was the one that was proposed. I think it was an 18th at some mathematician was it was about if you flip coins, and you keep doubling the reward. It was like it was like an infinite paradox. One of the infinite parallel paradoxes if you keep doubling God where&rsquo;s the St. Petersburg paradox? I can you look it up. For sure. I think it&rsquo;s a It&rsquo;s</p>
+<p><em>Tuomas</em>  10:01</p>
+<p>like, you end up like choosing like a backlog of zeros and zero chance of like infinite gain over like any, like the guaranteed chance of like any amount of money</p>
+<p><em>Max</em>  10:28</p>
+<p>but so this is one of many different</p>
+<p><em>Tuomas</em>  10:33</p>
+<p>oh no St. Peter&rsquo;s books, it&rsquo;s like playing a lottery. We&rsquo;re like,</p>
+<p><em>Max</em>  10:43</p>
+<p>oh, it&rsquo;s like you keep betting?</p>
+<p><em>Tuomas</em>  10:45</p>
+<p>No, I think it&rsquo;s like, you have this like game where you get paid by the number of the first heads or something like, so you keep flipping a coin until you get heads, right. And then the amount you get paid is like two through the number of like flips you took to get there. And then it&rsquo;s like, there&rsquo;s a one half chance you just get paid off like to write and there&rsquo;s one quarter chance you get paid a 4, one eighth chance you get paid eight, and so on. And the expected value is this coin flip game is infinite. So you just choose choose the option to play this game over any finite amount of money that&rsquo;s guaranteed for you. Right, right. Even though like most of the times you end up with like a payoff of 2 or something.</p>
+<p><em>Max</em>  11:43</p>
+<p>So yeah, and the question is, like, if you that also applies, like, if you&rsquo;ve done the game, if you&rsquo;ve flipped the coin, and you have $2, and then you have the option of keeping what you&rsquo;ve gotten, or continuing to play the game. Yeah. So like, say you got super lucky and you flipped it and heads came up the fifth time. So you</p>
+<p><em>Tuomas</em>  12:09</p>
+<p>would get that sense a fifth time, let&rsquo;s say, you know, it came out the 100th time.</p>
+<p><em>Max</em>  12:12</p>
+<p>Yes. 100 times. So you get two to the 100. Yeah. Which is like, which is like, how big</p>
+<p><em>Tuomas</em>  12:21</p>
+<p>that is? 1000. So that would be like 1000 1000s 10s of power.</p>
+<p><em>Max</em>  12:27</p>
+<p>1000s of the 10th power, which is</p>
+<p><em>Tuomas</em>  12:30</p>
+<p>I don&rsquo;t think we have it&rsquo;s like some some weird word.</p>
+<p><em>Max</em>  12:33</p>
+<p>Power of it. Anyways, it&rsquo;s like 1010 to the 100 something? Well, yeah, so it&rsquo;s 10 to the three times</p>
+<p><em>Tuomas</em>  12:42</p>
+<p>10 to 15. Oh, no, I tend to turn to 10 to the 30. Yeah,</p>
+<p><em>Max</em>  12:45</p>
+<p>so you have 10 to the $30. And then you&rsquo;re given the option, you can have that. Yeah. Are you playing again playing this St. Petersburg? And according to expected utility, you keep playing it? Right?</p>
+<p><em>Tuomas</em>  12:56</p>
+<p>Or at least to expect the value? Expected Value? Yeah. Cuz it&rsquo;s like, right, because there&rsquo;s differentiation between, right.</p>
+<p><em>Max</em>  13:04</p>
+<p>That&rsquo;s very important. Yeah. Utility is is something that gets latched on that someone, like you have your subjective utility that gets given to each option. Yeah, but for value, it&rsquo;s for the money game. It&rsquo;s clear, at least if you&rsquo;re if you&rsquo;re willing to talk about what&rsquo;s the, like money <em>Max</em>imize? Yeah,</p>
+<p><em>Tuomas</em>  13:20</p>
+<p>yeah. So I think it&rsquo;s like, sort of the start of decision theory is kind of like, before that there was the tradition of like, probability estimation, and like, sort of gambling theory of like, what you should do to like <em>Max</em>imize <em>Max</em>imize your payoffs or whatever, right? And that&rsquo;s where like, expected value came from.</p>
+<p><em>Max</em>  13:45</p>
+<p>Yes. And then and then the moment you start talking about utility, that that is the beginning of decision.</p>
+<p><em>Tuomas</em>  13:51</p>
+<p>Yeah. So you replace the abstract number or like, amount of dollars with the utility function that describes like, how good is this for you? Right? And then again, in the, in the frame of decision theory,</p>
+<p><em>Max</em>  14:07</p>
+<p>yeah, how you can deal with so So, I mean, would you say that decision theory is under form of utilitarianism? Basically, everything we encountered was</p>
+<p><em>Tuomas</em>  14:23</p>
+<p>Yeah, I think I listed like popular approaches that we you know, yeah. are like, heavily rely on utilitarianism, but that&rsquo;s, I don&rsquo;t know what&rsquo;s the actual definition like maybe there&rsquo;s like other competing that are like, quite different style of decision theory. I</p>
+<p><em>Max</em>  14:38</p>
+<p>think that&rsquo;s it. I actually, I can come up with a counter example. Now already. Yeah, we were talking about other decision theoretic like voting rules. Yeah, there&rsquo;s the Board account. I got a phone call. Okay.</p>
+<h4 id="social-choice-theory-and-decision-theory">Social choice theory and decision theory</h4>
+<p><em>Max</em>  15:00</p>
+<p>Okay, this work is working now.</p>
+<p>Okay, back on track decision theory, we were talking about the history of it and utility being assigned. Yeah, what made it you what made a decision theory was that there was a utility that got added. And then people thought you can wait way to wait, the decisions according to the utility that&rsquo;s given to you. And then I came up with a counter example, the Borda count. There are other there are other decision theoretic frameworks that so yeah. There are other decision theoretic frameworks that don&rsquo;t use utility, that are more like voting schemes. And so there&rsquo;s some overlap between social choice theory, which is theory of votes. Yeah. And decision theory. So yeah, the Board account, for example, you just rank all of your choices, and you give the number of votes according to the rank and then you sum them. And that doesn&rsquo;t require any conception. But</p>
+<p><em>Tuomas</em>  16:30</p>
+<p>how do you rank them? Well, you don&rsquo;t like based on different attributes, or Yeah, what is most desirable for this thing?</p>
+<p><em>Max</em>  16:37</p>
+<p>Yeah. So for example, if we&rsquo;re trying to decide whether to whether to eat hamburger, a salad, or soup, you know, you can you rank them one, two, and three. So if you want to, if in general are going to be healthiest, maybe you put salad and then soup and then hamburger. Yeah. And oh, wait, this, there&rsquo;s</p>
+<p><em>Tuomas</em></p>
+<p>no voting here. Yeah.</p>
+<p><em>Max</em></p>
+<p>If you already rank them, then that&rsquo;s kind of the decision.</p>
+<p><em>Tuomas</em>  17:13</p>
+<p>Yeah, the choice. Like, what is this gonna? That&rsquo;s like, that&rsquo;s more like an moral uncertainty thing, right? Yeah. Like different, right? Yeah.</p>
+<h4 id="contemporary-approaches-to-decision-theory-normative-uncertainty-risk-adjusted-expected-utility">Contemporary approaches to decision theory; normative uncertainty, risk adjusted expected utility</h4>
+<p><em>Max</em>  17:25</p>
+<p>Yeah. So there is some overlap, but that&rsquo;s only when people start. So that was Will MacAskell. Actually, Oh, yeah. So William MacAskill’s thing is normative uncertainty, where he starts to introduce the need that we can draw on parallels with voting theory and decision theory. So we use things like the board rule or Condorcet winners, that type of language to talk about what you should do under normative uncertainty and different moral theories. But yeah, actually, maybe the explicit maybe explicitly choosing usually does depend on utility. I don&rsquo;t know. Let&rsquo;s see what else is on this? Yeah. Okay, so So, one of the first things we we get taught in this class is that this whole problem of the St. Petersburg paradox can potentially be resolved by what this woman at UC Berkeley and Laura Buchak calls risk adjusted. Expected Utility. Yeah. And she says you can have another function that you put in, that&rsquo;s just the risk function, this, this option, you can have a risk function that&rsquo;s greater than 0.1, like this greater than one or less than one if you&rsquo;re more risk seeking or less seeking. And that effectively, that lets you get rid of this St. Petersburg paradox. Yeah. Which, which, like the Petersburg paradox. I mean, like, the extension of it, is that the you value the money, like, the money is equivalent to utility basically.</p>
+<p><em>Tuomas</em>  19:12</p>
+<p>Yeah. I mean, there&rsquo;s like other like, more, like, standard approaches to get rid of the paradox, right. Like,</p>
+<p><em>Max</em>  19:19</p>
+<p>yeah, like, like economics.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, like the usual ways to have a nonlinear utility function. It&rsquo;s like maybe it&rsquo;s like the square root of the amount of money you have or something like,</p>
+<p><em>Max</em></p>
+<p>right. But the reason that she introduces this, I think it&rsquo;s because of those problems themselves. Or those those solutions themselves. I&rsquo;d probably yeah, there&rsquo;s still some problems. Yeah. But, in fact, she says that for any Didn&rsquo;t she say that for any like, utility function? You can find some example? That</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, sort of, like similar? Yeah, probably probably.</p>
+<p><em>Max</em></p>
+<p>Yeah. Yeah. Anyways, so that That. That is one attempt. One thing that I that I thought about is that in the course of this class was was that there are actually, maybe we can before we go into the problems, do you remember any of the other interesting approaches?</p>
+<p>Okay, I don&rsquo;t really remember other like decision theoretic proposals besides Laura Buchak’s. Yeah, it was just like the rest of the ones were just like papers about why these</p>
+<p><em>Tuomas</em></p>
+<p>problems? Yeah. And that was also a pretty problematic proposal in itself. Yeah, the blue check proposal. Yeah.</p>
+<p><em>Max</em>  20:43</p>
+<p>So yeah, we were you came up with the idea. But then we ended up writing the paper together with a concrete example of why thorough blue checks, risk adjusted expected utility doesn&rsquo;t work. And it was to do with time.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, it&rsquo;s like a time series is like, because the way she rates like, probabilities you like depends on like, venue, calculate the, what do you consider it to be that different events? It&rsquo;s like, if you have a one gamble, where there&rsquo;s like, like, if you haven&rsquo;t, if you bet on the outcome of two coin flips on a single gamble, right, then you will make a different choice than if you first bet on the outcome of the first camp of coin flip. And then right, but on the outcomes, the second coin flip, right, even though like the even if the all the payoffs are the same, and the probabilities are the same in the end,</p>
+<p><em>Max</em></p>
+<p>yeah. Yeah. So so that&rsquo;s a weird thing, which is, if you give someone a bundled bet, the act very differently than if you had you unbundled it. And yeah, give it to them, even though the bundling is really just they do one decision than the next.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, like the bundling really isn&rsquo;t like, like, it doesn&rsquo;t change the real world situation at all. It&rsquo;s just how we, how we model it.</p>
+<p><em>Max</em></p>
+<p>Right. Right. So which</p>
+<p><em>Tuomas</em></p>
+<p>seems inherently flawed to me?</p>
+<p><em>Max</em></p>
+<p>Yeah. So that&rsquo;s a problem with consistency and time. And I mean, Laura Buchak talks about it later in her book, but still, this is kind of the beginning of, you know, me like maybe this is, this is not as clear as we thought. You can. Yeah, like, decision theory that works for all these things. Yeah. For general decisions.</p>
+<p><em>Tuomas</em></p>
+<p>What are the other other flaws or problems</p>
+<h4 id="other-flaws-in-decision-theory">Other flaws in decision theory</h4>
+<p><em>Max</em>  22:41</p>
+<p>with precision? The other one that&rsquo;s that&rsquo;s cool is that I like our the two papers that we read. One is Professor hare, Casper hares own paper. And the other is Ruth Cheng&rsquo;s. And the first one cat Casper hares paper is about these. You Your house is burning down and their firefighters who come in, and the firefighters have to save one item. So you know that there&rsquo;s your wedding album, which contains all these really precious memories with you and your wife. And that&rsquo;s really important to you. But then you also know that there&rsquo;s this Faberge egg, which is a really rare, like a very rich person thing given by Tsar Alexander the, the second or something like gore char Nicolas at the second. Yeah. And is just this family heirloom that&rsquo;s worth a lot, a lot of money. And he says at this point, it&rsquo;s like, he cannot say which one you should save. Right? And the whole thing is, he cannot say which one you should save. And even if you sweeten the deal by saying there&rsquo;s $100 Next to the wedding album. Oh, yeah. Like he that doesn&rsquo;t make a difference. He still can&rsquo;t make an All Things Considered a choice? Uh,</p>
+<p><em>Tuomas</em></p>
+<p>yeah. Yeah. It&rsquo;s like, like, at the base point is like, there are things there. Like, you can&rsquo;t say which one is better. And it doesn&rsquo;t mean that they have the same value goes if you add $100 to one, right. You still can&rsquo;t say which one is better, right? Instead, there&rsquo;s like something else going on there.</p>
+<p><em>Max</em></p>
+<p>Yeah. Yeah. Because like, yeah, you can imagine another silly example. It&rsquo;s like, you have your son Tim and your daughter, Lila. And you can only feed one of them or take one of you in the apocalypse. And you can make this decision. And then you say, well, I&rsquo;ll well like Tim has $1 in his pocket, you know? Or Tim has Tim as $100 in his pocket. Yeah, therefore you should. And so you just take Yeah, and it&rsquo;s like this is ridiculous. Yeah, so what that pointed out, I don&rsquo;t remember the exact conclusion that that came Whatever it takes that Professor hair takes, but it&rsquo;s something like deciding a good decision theory has to somehow take that into account. And like maybe it&rsquo;s just in general, really hard to, to make precise distinctions about choices.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, I think he was kind of in support of like the on par</p>
+<h4 id="ruth-chang’s-on-the-possibility-of-parity">Ruth Chang’s On the Possibility of Parity</h4>
+<p><em>Max</em></p>
+<p>theory. Right. Right. And so that naturally leads us to the next. This is a solution. This is a proposed solution by Ruth Chang. Yeah. Which is that in this case, you cannot use relations, like the three relations which underlie decision theory, just like greater than, less than or equal to,</p>
+<p><em>Tuomas</em>  25:50</p>
+<p>yeah, I guess, kind of deeper thing behind this is like the assumption going from like, probability theory, the decision theory is that like, you have some sort of utility function that like, given any state, you can give it give you a number that describes how, how good it is, right? And normal numbers just have these three relations, either one number is greater than smaller than or equal to the other. But it seems like these values are, don&rsquo;t follow these three rules.</p>
+<p><em>Max</em></p>
+<p>Yes. And so what Ruth Chang says, is we need another relation, which is called on a par. Yeah, the thing is, the wedding album and the Faberge egg are not equal, they&rsquo;re actually on a par, which means that there is not also so she is careful to say that it&rsquo;s not that they can&rsquo;t be compared. And it&rsquo;s also not that they&rsquo;re equal. It&rsquo;s that there&rsquo;s this new thing called on a par. Describe some of the relations about it. Which I don&rsquo;t fully remember.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, yeah.</p>
+<p><em>Max</em></p>
+<p>But yeah, I don&rsquo;t was it a satisfying answer to you?</p>
+<p><em>Tuomas</em></p>
+<p>I think it&rsquo;s like, like, it seems like they&rsquo;re on to something by kind of like, if we accept that it&rsquo;s almost like breaks down decision theory itself. I feel like, because now you, like operating with things that are on a par? It just like all of these rules just kind of stopped making sense. Like,</p>
+<p><em>Max</em></p>
+<p>right, and how are you supposed to decide when things are on a par?</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, it&rsquo;s like, so you know,</p>
+<p><em>Max</em></p>
+<p>this is I think this starts to get at one of the bigger problems of decision theory, which is that there are like meta rational considerations. Like how do you decide things? Like how much utility to assign to something? Yeah, or whether something is on a par or actually equal? You&rsquo;d like another decision theory for that. Yeah. And like that, and just like infinitely builds on, on itself?</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. Yeah, when you say things like on a par, it like, you also run into some sort of like paradoxical situations of like, you know, a Faberge egg innovating album, or in a bar. And if the video album has $100 isn&rsquo;t a bar, if it has $200, it&rsquo;s still under par. But like, at some point, if you keep adding $100 Every time, right, you&rsquo;re probably not on a par anymore, like maybe submitting Aldwin at a billion dollars, then like, yeah, you&rsquo;re just gonna choose that.</p>
+<p><em>Max</em></p>
+<p>Yeah. It&rsquo;s like a wedding album. And like the embryo that will become your future son.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah.</p>
+<p><em>Max</em></p>
+<p>Or like the embryo at 10 weeks? Yeah. Well, I mean, so…</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, that would get you I don&rsquo;t know if it&rsquo;s like a different kinds of things. I was just thinking like, if the Faberge egg is like mostly monetary value, and like, if you add value up to the Faberge egg, then it kind of becomes clear, because you&rsquo;re like, sort of like you&rsquo;re winning on all the fronts. It&rsquo;s like it&rsquo;s more money, and it&rsquo;s more emotional value. And maybe there&rsquo;s but yeah, I think precisely defining this kind of on par notion is very hard.</p>
+<p><em>Max</em></p>
+<p>Well, it the ‘on a par’ notion itself is an attempt to move out of precision.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, well, maybe it&rsquo;s like, yeah, we shouldn&rsquo;t. But I feel like if I remember correctly, I think the author was like, trying to frame it as like, you know, you don&rsquo;t have to change the framework too much. You just kind of include this extra relation and things still work. Yeah. Which I think, yeah, doesn&rsquo;t really work, actually.</p>
+<p><em>Max</em></p>
+<p>Yeah. So my feeling about it is that she&rsquo;s trying to build on a conceptual system that is fundamentally limited, it&rsquo;s like a boat that is sinking and she&rsquo;s trying to bail the water out. Yeah, solution is not to just patch on another relation. It&rsquo;s to realize that you cannot use decision theory for like</p>
+<p><em>Tuomas</em>  30:13</p>
+<p>a yeah, these types of things have to give up on the boat.</p>
+<h4 id="bostrom’s-problems-with-infinity">Bostrom’s problems with infinity</h4>
+<p><em>Max</em></p>
+<p>Yeah. Yeah. But that&rsquo;s that&rsquo;s jumping ahead of our current stance on decision theory. The other problems that we are introduced to this is this is only like the second of the problems. Right. The other things that were introduced to were problems of infinities. Yes, I mean, we talked about that the St. Petersburg paradox, but there&rsquo;s also another.</p>
+<p>There&rsquo;s a crazy paper by Bostrom. Do you remember like the any of the details about that?</p>
+<p><em>Tuomas</em>  30:46</p>
+<p>I remember the kind of broad idea, I think it&rsquo;s like, it kind of shows that like these issues we have when we re approach infinity, right are actually like, much, much, much broader than you would think just like it&rsquo;s more than this to St. Petersburg paradox. It&rsquo;s essentially like, if we think there&rsquo;s like, any chance of like an infinite infinite moral value, or like infinite utility in some possible world, which we probably should assign some nonzero probability to, right? Essentially, every decision has the same value. Like we can&rsquo;t make any decisions. They&rsquo;re all it&rsquo;s like, you know, should I? Should I pay $50? Or should I get $50? actually doesn&rsquo;t matter. It goes to like, your expected value is like $50 plus 0.0001 times infinity, or negative $50. dollars plus 0101 times infinity. And those are the same. So if there is this, yeah, if there&rsquo;s any chance of infinite infinite payoff, then like, nothing else matters. Like, right? We&rsquo;re basically paralyzed decision theory doesn&rsquo;t tell us how to act in any situation.</p>
+<p><em>Max</em></p>
+<p>Right. And this is also, this is kind of parallel with the problem of moral fanaticism.</p>
+<p><em>Tuomas</em></p>
+<p>Oh, yeah, I think give us like part of the part of the paper maybe.</p>
+<p><em>Max</em></p>
+<p>Because if you if this is something that reappears in normative uncertainty, is that there might be really weird beliefs, that assign infinite values are incredibly high values to certain things, and those just dominate everything else. Yeah.</p>
+<p><em>Tuomas</em>  32:31</p>
+<p>Which is really dangerous, because that could like, easily justify you&rsquo;re doing like, very horrific acts. Right? The name of some much greater good, right? Right. There might even be just a small probability of it.</p>
+<h4 id="newcomb’s-paradox-and-the-smoking-lesion">Newcomb’s paradox and the smoking lesion</h4>
+<p><em>Max</em></p>
+<p>Yeah. Before we go to the like meta decision theory, the normative decision theory stuff. We&rsquo;re still at the level of basic decision theory. This is like we&rsquo;re not done with the problems with it. Right. Another problem is, is determinism. Oh, yeah. And that really comes up when we talk about new code and Newcomb’s paradox. And the smoking lesion. The two box problem,</p>
+<p><em>Tuomas</em></p>
+<p>right. Yeah. Yeah.</p>
+<p><em>Max</em></p>
+<p>And the whole, the whole thing is that if you start to introduce notions about predicting how the agents can act into the decision, things get really weird quick, right? Like the whole the To box, or the Newcomb paradoxes, where there is a room, and inside, like one box, like box A, there is $1,000, or some notable prize, and then inside box B, is it doesn&rsquo;t matter if it&rsquo;s larger</p>
+<p><em>Tuomas</em></p>
+<p>or smaller. It has to be larger. It&rsquo;s like,</p>
+<p><em>Max</em></p>
+<p>so it&rsquo;s like 5000 Yeah, it&rsquo;s like $5,000 or something. And the whole end, you can either choose box B or like the bigger prize, or both of them. Yeah, but the thing is, there&rsquo;s a really good predictor who&rsquo;s who&rsquo;s like observes your past behavior, and will choose to put nothing in both boxes, if they predict that you take or</p>
+<p><em>Tuomas</em>  34:22</p>
+<p>nothing in the bigger box. Okay, if you&rsquo;re gonna take both if they think you&rsquo;re gonna take both Right, right. But the smaller box with all that we&rsquo;ll always have the $1,000</p>
+<p><em>Max</em></p>
+<p>Yeah, so it&rsquo;s like a million dollars in in big box. And then yeah, in this small box, it&rsquo;s like $1,000</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. So either you could choose to take the million dollars right box, which also might have $0 on it, or you could choose to take the million dollars or $0 box lost $2,000</p>
+<p><em>Max</em></p>
+<p>Yeah. And then so evidential decision theory is so the two approaches are like one is causal decision theory. One is evidential decision theory. theory. And evidential decision theory is when you two box right? One of them is like,</p>
+<p><em>Tuomas</em>  35:08</p>
+<p>the other way, maybe? I&rsquo;m not sure.</p>
+<p><em>Max</em></p>
+<p>I thought college decision theory was one boxing, white one is like you pay attention to the causes and you think about, like, what the predictor is likely to do. And then one is like, you pay more attention like past, I think</p>
+<p><em>Tuomas</em></p>
+<p>causal is like, you&rsquo;re right. Actually, yeah. Causal. It&rsquo;s like you&rsquo;re like, okay, yeah. Either to predict your because the keys the predictor puts the money in there before you make your decision. Yeah, yeah. So it&rsquo;s like, you&rsquo;re like if their money was put into the box, it&rsquo;s better for you to choose both boxes. Yeah. Because you will get a million dollar and 1000. Right. But if the money wasn&rsquo;t put into the box, is better for you do still choose both boxes, right? You get $1,000 instead of zero, right? So it&rsquo;s like, in either state of the world, it&rsquo;s better to choose both boxes. Right. So clearly, obviously, that&rsquo;s causal. I think that&rsquo;s causal. Yeah, I&rsquo;m not 100%. Okay.</p>
+<p><em>Max</em>  36:06</p>
+<p>I did not think it was. In other cases, your names don&rsquo;t really matter. But yeah, there&rsquo;s, it just gets, you can go down this big rabbit hole. And then there&rsquo;s versions of this problem, like the smoking lesion problem. It&rsquo;s like your friend, you know that there&rsquo;s some link between having a brain lesion and wanting to smoke. And like, given that your friend smokes, like, should you be happy for them about that? Or as like, yeah, I don&rsquo;t think we have to go into the specific details. But suffice to say that there&rsquo;s some genuine, genuinely hard. It&rsquo;s like not even simple trade offs to make it just like, you. The whole framework just gets kind of like, yeah. perplexed. Yeah,</p>
+<p><em>Tuomas</em></p>
+<p>I think the decisions get very confusing once you get into a situation where there is like, some factor that&rsquo;s like, correlated with your decisions. Yeah. Like with your like, sort of future decisions are correlated with some previous factor, like, the predictions performance, like if the predictor is better than chance than sort of like, the prediction or it is like correlated with your decision you are going to make, right, which perhaps implies some sort of lack of freewill or like, yeah, at least a problem in this framework of like, where you assume that like, independent of other things, you can just freely choose this.</p>
+<p><em>Max</em></p>
+<p>Yeah. So so it&rsquo;s like, it&rsquo;s like decision theory is implicitly built on this notion of like, decoupled causes or or freewill. Right, yeah. But if you take a deterministic lens, and you start to set up these questions that are that assume a more realistic way of acting, then it violates some of the core assumption. Yeah, I</p>
+<p><em>Tuomas</em></p>
+<p>think Violation theory. Yeah. Yeah. And yeah, I haven&rsquo;t really seen a good way to like, reconcile that with this. Yeah. deterministic view. Well,</p>
+<p><em>Max</em></p>
+<p>maybe UDT the like, Yudkowsky’s thing. People talk about that? Yeah. Or FDT. There&rsquo;s also functional decision theory. Yeah. But I mean, it&rsquo;s unclear, like an either case. Those Those are maybe promising. We haven&rsquo;t looked at them. But in general, I think, like, even if the did somehow save this, yeah, I love determinism. There&rsquo;s all these other problems. There&rsquo;s a problem of infinities. There&rsquo;s a problem of precision, like how how precise they</p>
+<p><em>Tuomas</em>  38:32</p>
+<p>are like things I&rsquo;ve liked the problem of British precision is more like the problem of like, comparability.</p>
+<p><em>Max</em></p>
+<p>Right? Right. Well, I mean, it&rsquo;s like precise, or, okay, sure. Like, it doesn&rsquo;t really matter what we call it, but you know what I&rsquo;m telling you,</p>
+<p><em>Tuomas</em></p>
+<p>yeah, it&rsquo;s like, but yeah, it&rsquo;s connected off, like, maybe you can compare with precision, or you can&rsquo;t compare at all. Yeah.</p>
+<p><em>Max</em></p>
+<p>And there&rsquo;s another problem to actually remember the options paper.</p>
+<p><em>Tuomas</em>  39:03</p>
+<p>Oh, yeah. Like, how do you know what are your options? Yeah,</p>
+<p><em>Max</em></p>
+<p>so Casper hares, grad student has this paper called? What are your accessible options where he tries to argue about when you&rsquo;re in a given situation, how do you even decide what the options are? Because most of these toy problems, give you the options. But like, in reality, if you&rsquo;re walking down a trail, or you&rsquo;re about to get in your car, there are so many different there&rsquo;s like infinite different options.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah.</p>
+<p><em>Max</em>  39:40</p>
+<p>And how do you bracket those into different things? And he says, like, I can&rsquo;t remember his exact solution. It was like, your options are the things that you can reasonably do. Or that like appear in your mind or something. Yeah. It&rsquo;s like, it&rsquo;s not quite that dumb. But But basically, I think this is like a a really serious problem. Because you put two different people in the same situation and they can respond in incredibly different ways. Yeah, they have different ways of seeing that are that are not innumerable.</p>
+<p><em>Tuomas</em>  40:14</p>
+<p>Yeah. And it&rsquo;s like huh? Why is this a problem? It&rsquo;s a,</p>
+<h4 id="decision-theory-fails-on-its-own-terms">Decision theory fails on its own terms</h4>
+<p><em>Max</em></p>
+<p>it&rsquo;s a problem, because Okay, here, we can go back a little bit to what is a decision? Who is supposed to do? Yeah, so this is one of my favorite things from Laura Buchak is that she says, clearly, a good decision theory should be action guiding, evaluable and predictive/explainable. So it should be able to tell you what you should do in a situation that should allow you to evaluate whether you made the right decision and assign blame if you didn&rsquo;t, and kind of be able to explain decisions of other actors to see if they&rsquo;re, like, rational or not. Or so actually, the explainable part seems like it&rsquo;s overlapping with evaluating. But there&rsquo;s two criteria, action guiding evaluatable, I think are solid. That&rsquo;s what I would expect from good decision theory. So the reason that this matters, that options matter is, if it is to be at all action guiding, if you&rsquo;re put in the situation, like, you should know what options you want to go through.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. And it like, yeah, like the way the basic framework is, like, you enumerate through all the options, calculate their value, and like, right, see, what&rsquo;s the what&rsquo;s the best one? Yeah. But yeah, I guess that&rsquo;s, that&rsquo;s kind of part of the meta problem. I feel like it&rsquo;s like, similar to like, how do you assign like the utility function? Right? Like, how do you know what the options are?</p>
+<p><em>Max</em></p>
+<p>Yeah. Yeah. And so So, yeah, there&rsquo;s been, there&rsquo;s been the problem of infinities. So one second, is this problem of what you call comparability or, or precision? Yeah. And then the third is problems of determinism. And, and then there&rsquo;s problems with like, consistency in in time to that there were the original problems with Laura Boucek.</p>
+<p>Meta</p>
+<p><em>Tuomas</em>  42:27</p>
+<p>Yeah, I think that&rsquo;s like, whichever specific proposal though most Yeah, most decision theories don&rsquo;t really have that problem. But yeah, I think it&rsquo;s like, yeah, and then there&rsquo;s the meta level</p>
+<p><em>Max</em></p>
+<p>problems of like, yeah, and then there&rsquo;s metal level problems, which are pretty serious. Yeah,</p>
+<p><em>Tuomas</em></p>
+<p>I think that that might be the more more bad problem really is like, how do you? How do you assign utilities? How do you assign a number? Yeah. How do you assign a world thing?</p>
+<h4 id="macaskill’s-normative-decision-theory">MacAskill’s Normative Decision Theory</h4>
+<p><em>Max</em></p>
+<p>Yeah. How do you assign utilities? How do you even decide when to use your decision theory? Yeah. When should you apply it? And yeah, what are your options? So like? And then and then I guess, briefly to go through the attempted solutions, like Ruth Chang, proposes the the ANA par thing. And then we&rsquo;ll McCaskill kind of has an attempt to make a meta decision theory that that brings in ideas from social choice, saying, like, you can actually just treat each while he does this, in the case of moral theories, like what do we do when we&rsquo;re not sure what we how we should act? And we think there&rsquo;s some possibility that utilitarianism is right, or deontology is right, you know, and so he says, what you can do is you allow them to basically vote or have their own utility theories or utility functions that assign different options values.</p>
+<p><em>Tuomas</em>  43:55</p>
+<p>That doesn&rsquo;t really work with decision theory, though, right?</p>
+<p><em>Max</em></p>
+<p>What do you mean doesn&rsquo;t work? Or does it? This is like, oh, yeah, this</p>
+<p><em>Tuomas</em></p>
+<p>is how you make the decision.</p>
+<p><em>Max</em></p>
+<p>This is a decision theory for choosing among moral No,</p>
+<p><em>Tuomas</em></p>
+<p>nope. But this is how you choose. Which option is better, right? Yes. But what is actually the probability involved? Like this? Like, oh, I guess it probably is, like, part of the outcome is like, you have an outcome, like this action leads to I mean, sort of probability, probabilistic futures, they, I mean,</p>
+<p><em>Max</em></p>
+<p>that might depend on the, that might be an input to the moral function, you know, like, yeah, for example, like deontologist might think that any probability of this is really bad. Whereas utilitarians might be like, Oh, it depends on the probability. Yeah,</p>
+<p><em>Tuomas</em></p>
+<p>I think you put into probabilities into the and then, yeah, you have this probabilistic state and then you calculate for a specific theory, right? And you have those both between</p>
+<p><em>Max</em></p>
+<p>each other. Yeah. And so he has this whole machinery that&rsquo;s trying to be a decision theory for moral decision making. That&rsquo;s like there&rsquo;s a credence function. There is like a state space. And it&rsquo;s kind of like an RL setup almost. Yeah.</p>
+<p><em>Tuomas</em></p>
+<p>This framework suffers especially badly about the problem with options though, right? Yes. Because you&rsquo;re ranking the different options and how fine grained you&rsquo;re like options basis. Yeah. Or like which options you consider, like, can affect a lot even though like, yeah, perhaps your best option was already included? Like how many other options do you consider may change? Yeah.</p>
+<p><em>Max</em>  45:43</p>
+<p>Yeah. So I mean, so you, you kind of jumped the gun a bit. But what will McAskill proposes, in his thesis at least, is that you can use this thing called the Borda count where you rank things. And according to each theory, so you know, if it&rsquo;s like eating a salad versus eating a steak versus eating soup, if if, like a utilitarian thinks that it&rsquo;s really bad to eat the soup, or it&rsquo;s not really bad to eat the steak but fine to eat the soup and salad. And I don&rsquo;t know like a hedonic utilitarian is like you he don&rsquo;t acumen dependent utilitarian is like you have you should eat the steak because it&rsquo;s the tastiest or something like how you adjudicate is you get the typical, utilitarian to rank the options like one, two and three, and then the human, hedonic utilitarian to rank the options, and then you can like sum the votes. But what were you just saying was, was that that is really dependent on how many options you have, just by adding additional kind of inconsequential options, you can change the outcome.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, exactly. Yeah.</p>
+<p><em>Max</em></p>
+<p>So all of these proposed solutions we looked at, were kind of deeply flawed. And yeah. And it doesn&rsquo;t really seem like there&rsquo;s hope for a decision theory that can, like they could, in principle, even in principle, do what we want, like telling us what to do in all these in any given situation.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, yeah. The overall overall feeling is that, like, his many, many, quite severe problems exist for decision theory. And none of the proposed solutions really seem like, satisfactory, like they raised their own issues. So I guess that kind of brings the question of like, is, is this the style of decision theory is just doomed? Like maybe we&rsquo;re just like, sort of first principles? Principles are like off? Or is it just like, we&rsquo;re just not smart enough? And there&rsquo;s like a better way to formulate these themes that gets rid of most of the problems?</p>
+<h4 id="metarational-considerations-in-decision-theory">Metarational considerations in decision theory</h4>
+<p><em>Max</em></p>
+<p>Yeah. I mean, <strong>I don&rsquo;t think that it&rsquo;s we&rsquo;re not we&rsquo;re not smart enough. And I don&rsquo;t think this means decision theory is useless. How I think about it now, is that decision theory, like probability theory, is a tool that is really useful in certain domains. And what we, what we&rsquo;ve done by bringing into these normative contexts, is we&rsquo;ve taken the tool out of out of its useful domain, and it&rsquo;s breaking down.</strong></p>
+<p><em>Tuomas</em></p>
+<p>Yeah, we&rsquo;re like, trying to use a tool on like, a much broader set of issues that it was really designed for. Right? Yeah, even though decision theory does, like sort of from the start, it was kind of like ambitious.</p>
+<p><em>Max</em></p>
+<p>Right. But I mean, I guess what I&rsquo;m saying is that maybe the tool itself was like probability theory.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, like probability theory is like, you know, yeah,</p>
+<p><em>Max</em></p>
+<p>let&rsquo;s use that for, you know, statistical mechanics or like, making decisions in a casino. Yeah, these things like probability was great for but once you start to talk about, like, human preferences,</p>
+<p><em>Tuomas</em></p>
+<p>yeah,</p>
+<p><em>Max</em></p>
+<p>that I think is, it&rsquo;s like is the mistake.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, you&rsquo;re overextending the use of the tool. Yeah.</p>
+<p><em>Max</em></p>
+<p>And so, the the problem of like, what you should actually do in a given situation is much is like, what Chapman would also call or what he would call a meta rational problem. And for that, you have to that there is not like, in principle, a system you can build a theoretical system, you can build I can tell you what to do. You have to start to move into more improvisation things like relying on reasonableness over explicit rationality, which decision theory is what In the domain of Oh, yeah. There&rsquo;s also the discussion of rationality we have in the class, which is really cool. Because I hadn&rsquo;t thought that explicitly about what it meant to be rational. Yeah. What is rational? And so I was using it. Basically just to mean good for right?</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. Like you, you,</p>
+<p><em>Max</em></p>
+<p><em>Tuomas</em>. You don&rsquo;t, you won&rsquo;t drink this water that had a cockroach in it, even if it&rsquo;s been filtered. That&rsquo;s irrational.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. And that&rsquo;s like, implies it&rsquo;s like something wrong to do.</p>
+<p><em>Max</em></p>
+<p>Yeah, it&rsquo;s just like something. Yeah. And I think that&rsquo;s colloquially how it&rsquo;s,</p>
+<p><em>Tuomas</em></p>
+<p>yeah, I think that&rsquo;s how it&rsquo;s often used. But yeah, I think people are very confused about the concept.</p>
+<p><em>Max</em></p>
+<p>Yeah. And so there&rsquo;s this, there&rsquo;s a really good paper by this Russian dude. I mean, it&rsquo;s actually not a good paper at all. It&rsquo;s a horrible <a href="http://fitelson.org/seminar/kolodny_wbr.pdf">paper</a>, where he spends 100 pages in in like excruciating, dense writing, trying to figure out what it could mean to be rational, on its own grounds. Like what, what rational, free of depending on some kind of given utility function. Without a utility function, could it make sense to say something is rational, isn&rsquo;t rational, and then he kind of goes back and back. And he&rsquo;s like, actually, there&rsquo;s nothing that you can really rely on. So it doesn&rsquo;t make sense to say something is rational or not, unless you have a very specific function or aim you&rsquo;re evaluating.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, it has to be like with respect to something.</p>
+<p><em>Max</em></p>
+<p>Yeah. And that&rsquo;s my current stance on it&rsquo;s like, yeah, I will only say irrational. If you have something close in precision to I have a pretty good clear goal. And a clear, yeah, clear benchmark by which you&rsquo;re evaluating it. So like, I would say, it&rsquo;s not rational. Like, if you care about having as much money as possible in your life, then it&rsquo;s not rational to buy lottery tickets. And like, if that is the main aim, yeah, that is not rational. But I would never say like, it&rsquo;s irrational to buy lottery tickets. Yeah, that&rsquo;s just, which is just this is how, yeah, behavioral economists talk about it all the time. Yeah, people are irrational, like, like, all this stuff. Uh, yeah. I</p>
+<p><em>Tuomas</em></p>
+<p>think it&rsquo;s really, like so</p>
+<p><em>Max</em></p>
+<p>annoying. Now that now that we&rsquo;ve read these papers, yeah, it&rsquo;s</p>
+<p><em>Tuomas</em></p>
+<p>like, people assign this power to this, like, simple function, they came up with, like, you know, your utilities, the number of money you have or whatever, right. And then they assume that&rsquo;s the truth. And whatever doesn&rsquo;t follow this truth is irrational, right. There&rsquo;s like a lot of implied kind of wrong reasoning there. I think</p>
+<p><em>Max</em></p>
+<p>due to the the implications of decision theory being flawed, like this are actually really big, I think. Yeah. I mean, mainly, I&rsquo;m thinking of behavioral economics, most of the a lot of at least Kahneman and like, 90s 2000s, behavioral economists, I think even today are still trying to bring in utility functions and talk about people as agents. And the they&rsquo;re not claiming that people are rational agents anymore, if they did that, but they are really taking seriously this notion that decision should be guided by a decision theory.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. And money&rsquo;s like, approximation of utility or like,</p>
+<p><em>Max</em></p>
+<p>Yeah, I mean, I don&rsquo;t know the behavioral economist. Yeah, maybe. behavioral economists subscribe to that so much. But yeah, they&rsquo;re like, Yeah, I don&rsquo;t know. It&rsquo;s, I think, in practice, there&rsquo;s a really big variation within behavioral economics papers. Yeah, some people don&rsquo;t take this very seriously. Some people seem to, and it&rsquo;s, yeah, I probably shouldn&rsquo;t be like lumping them all together like this. But decision theory has affected a huge amount of stuff, like computer science, too. Right? Like, all of RL is basically an extension of decision theory. Right.</p>
+<p><em>Tuomas</em></p>
+<p>I think it&rsquo;s it&rsquo;s sort of like a decision theoretic framework, or all ropes. Yeah.</p>
+<p><em>Max</em></p>
+<p>I think it&rsquo;s like 1,000% I just</p>
+<p><em>Tuomas</em></p>
+<p>went through Yeah, I think the thing is, like, I don&rsquo;t think it&rsquo;s wrong in that framework, right.</p>
+<p><em>Max</em></p>
+<p>It&rsquo;s not wrong in that framework, because we are operating in game like scenarios.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. Like, like this isn&rsquo;t theory does have it use cases like if you&rsquo;re trying to lie To figure out like, what&rsquo;s the best strategy to like <em>Max</em>imize your score? In a video game? Yeah, then I think decision theory is probably the right tool to use, like you have a limited number of options. It&rsquo;s not clear what they are. Right? It&rsquo;s clear what&rsquo;s the target function, right? And outcomes are comparable to each other. Right. But it is kind of interesting, though, is like s. Reinforcement Learning tries to like move from like, more clear game like things into more realistic settings. Is this kind of basic framework going to cause problems?</p>
+<p><em>Max</em></p>
+<p>I think so. Yeah. Because I mean, I mean, in principle, I think it has to, because if you&rsquo;re going to say, what&rsquo;s the reinforcement learning agent going to do as <em>Tuomas</em> and <em>Tuomas</em> his life to <em>Max</em>imize his utility? Like, or to <em>Max</em>imize? <em>Tuomas</em> is like, joy or whatever?</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, I mean, I feel like it we&rsquo;re going a little too far here. Like we&rsquo;re not trying to, like replacing a person with a reinforcement learning agent is, I think, pretty far out. But like, if you think of like, some intermediary things, like</p>
+<p><em>Max</em></p>
+<p>I was trying to just do the most extreme example. Yeah, of the most subjective thing to point out why they are the type of problem that</p>
+<p><em>Tuomas</em></p>
+<p>it might Yeah, for? Yeah, I mean, I think it&rsquo;s like, I guess that comes to the same thing of like, there&rsquo;s tools for things. And there&rsquo;s like, the right scope of using those tools, like Reinforcement learning is a tool. But I think, if the goal is to figure out, like, what makes me the most joy, like, I don&rsquo;t think Reinforcement learning is the tool for that. Because you don&rsquo;t, there&rsquo;s no reward function.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, like the reward function is not clear. And the other thing is, like, for reinforcement learning to work, you have to be able to, like, try things many times. Like, you explore an action, you see, what&rsquo;s the reward, and then you try a different action, right? But like, in real life, things only go forward, you can&rsquo;t like, okay, let&rsquo;s restart and play this again. Like, that&rsquo;s not an option. So it will require maybe some, like, fundamentally different approaches, even even, you&rsquo;re starting to see like, sort of robotics or something like use to self driving cars like, like, they don&rsquo;t really use like the classic reinforcement learning that much, right? It&rsquo;s more like imitation learning. Like, there&rsquo;s like, there&rsquo;s like hardcoded, like, pipelines of how you act by you just like, you only use like, neural networks for a specific part of the job. But then like, actually have a rule based system that tells you, when you make actions,</p>
+<p><em>Max</em></p>
+<p>you mean, you only use rule based systems or explicit RL for a specific part, but use neural nets on other parts. Because your nets don&rsquo;t suffer from the problem.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, neural nets. No, but like, like, if you&rsquo;re talking like specific, like self driving cars, like, sort of like, a big, like, grand ambition of reinforcement learning, which is be like, you know, end to end RL do like, given inputs of the environment, they figure out what&rsquo;s the best action to take to drive safely, right. But like, that doesn&rsquo;t seem like the best approach to go. Perhaps partially because like, you know, we don&rsquo;t really know the reward function. And there&rsquo;s also like, other problems with the learning. But instead, it&rsquo;s like, what people kind of used to get around that. It&rsquo;s like they have a neural network to do vision. And then you have this whole beautiful map of like, your environment, but then you just have a rule based system that tells you given this, this is how you should drive.</p>
+<p>But yeah, I think let&rsquo;s not get too too far into this tangent.</p>
+<p><em>Max</em></p>
+<p>Yeah. Yeah. So what else do we have to say about the theory? I think? I like Sargon.</p>
+<p><em>Tuomas</em></p>
+<p>I&rsquo;d like to get back to that point of like, cuz I think it&rsquo;s like a pool that&rsquo;s applied through far, like sort of this whole probabilistic mathematical analysis. Yeah. For making decisions. Like, what are the Yeah, I guess the limitations are that like, when it&rsquo;s hard to specify what&rsquo;s your reward, and liking? Yeah, it seems like there are cases where like, there doesn&rsquo;t exist. A function like it&rsquo;s just impossible to make a function and that kind of seems like a case where it shouldn&rsquo;t be applied.</p>
+<p>It&rsquo;s like, but suppose like, we agree that the tools of like sort of utilitarian probabilistic analysis don&rsquo;t really work well for decision theory, right? Is there like something else that could achieve the aims of decision theory? Like? How should we think about decisions? Is there any systematic way? That is useful?</p>
+<p><em>Max</em></p>
+<p>I don&rsquo;t think so. I think that it is the mistake is to try to make something universalized. Like that, I think that the decisions are, like, have heavily contingent on the nature of activity that you make. Like if you&rsquo;re improvising a jazz piano solo, versus if you&rsquo;re trying to make a career decision. Yeah. What is versus if you&rsquo;re trying to choose whether or not to break up with your girlfriend?</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, you just should not make the same. Yeah, same type of calculation. Or like, maybe there isn&rsquo;t? Maybe it&rsquo;s not the same thing?</p>
+<h4 id="what-constitutes-a-decision">What constitutes a decision?</h4>
+<p><em>Max</em></p>
+<p>What do you mean, it&rsquo;s not like maybe,</p>
+<p><em>Tuomas</em></p>
+<p>maybe the whole phrase decision is somehow,</p>
+<p><em>Max</em></p>
+<p>yeah, this is kind of what this is something that I&rsquo;ve that I have begun to feel more and more. So it started when the emotional disillusionment with decision theory began when I tried to explicitly apply it to my life. Yeah, yeah. Decisions. Yeah, about very emotional things. relationship decisions. And seeing that just was not adequate. Or I couldn&rsquo;t make it work. Yeah, very unsatisfying. And then now, me going into in into much more intuitive mode of AI, it&rsquo;s like, I&rsquo;m not even making decisions, just things arise. And then they they just unfold. And then I go, Yeah, and do them. You know, it doesn&rsquo;t feel like I&rsquo;m making a bunch of decisions. Maybe decision theoretic theorist would come to me and say, you are making decision you&rsquo;re making like, you know, 1000s of decisions a day or like, you know, many, many decisions. Yeah. But I guess I think I would, I would say that it does not, like, under that definition of decision. There&rsquo;s like infinite decisions that are made all the time. Like, what about the decision to blink your eye or something? You know? Yeah. Like, it&rsquo;s like, there&rsquo;s an impulse that arises, and then you can, you can just follow it, like going on a road trip. And it doesn&rsquo;t have to be like a cognition, like a reflective decision thing.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. Like, you just do things like, and that&rsquo;s a more free way of being. Yeah, maybe you shouldn&rsquo;t like because, in a way, like this whole frame of like, there&rsquo;s certain decisions and like it, like sort of splits lifes and life into like, now&rsquo;s the time to make a decision. Now is the time to follow through with the decision. Now you stop and like, you make another decision. Right? Whereas like, you know, there is no break. It&rsquo;s like, you&rsquo;re always making decisions, or, Oh, you&rsquo;re never made, or you&rsquo;re never making them decisions. Yeah. And, you know, if we believe the world is deterministic, then like, decision is not any different from like, a rock falling down a hill.</p>
+<p><em>Max</em></p>
+<p>Yeah, I mean, I kind of tried to allied or not, too, too closely. Consider like problems of determinism. Yeah, I think it makes things like very tricky. Yeah. But</p>
+<p>yeah, <strong>one thing that this does make me think of is that decision theory is a subset of thinking more generally, or thinking in cognition, your thinking isn&rsquo;t good for everything in your life. In fact, it&rsquo;s good for a small subset of things. It&rsquo;s good for when you have explicit problems. And, you know, problems aren&rsquo;t things that exist out there. But they&rsquo;re more of like a way of seeing things.</strong> But So insofar as you&rsquo;re willing to see this thing as a problem, and it&rsquo;s useful to see it as a problem, then you should think about it. And if you&rsquo;re thinking about it, then a good tool within thinking, like while you&rsquo;re thinking about it could be decision theory, but your life is not at least I wouldn&rsquo;t want my life to be considered a series of problems to solve.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, yeah. Like Yeah. Yeah, like even though like, this comes back to sort of like, yeah, also critique of like utilitarianism and stuff. It&rsquo;s like, this sort of series of problem. It&rsquo;s just like a very sort of like optimizing framework of life. Like you&rsquo;re just thinking, like, Oh, I&rsquo;m trying to find the optimal strategy to make the best utility out of my life. Right? And like, that&rsquo;s how I should, you know, make all my choices and like, maybe just like you Yeah, it&rsquo;s feels too rigid to mathematical. And it&rsquo;s sort of like, maybe, if we said, set it that way, it just like, like, just by thinking about it that way, you sort of lose something. Like maybe life could be something more like, magical and mysterious. Free, and like the sort of Mathematica analisis doesn&rsquo;t really like.</p>
+<p><em>Max</em></p>
+<p>It&rsquo;s not it doesn&rsquo;t allow you to live in that way. But yeah, and it also can destroy that. Yeah, that&rsquo;s</p>
+<p><em>Tuomas</em></p>
+<p>what I was thinking is like, it kind of directly. takes that away.</p>
+<p><em>Max</em>  51:00</p>
+<p>Yeah. It&rsquo;s not just sort of yeah, this is the this is how I feel. It&rsquo;s like, it&rsquo;s not just that it leads you to behave in certain ways that might not make you happy. Yeah. It actually can lead you to construct your environment in ways that conform with your decision theory. Yeah. And, like, perpetuate this like, type of rigid worldview, like, and this is this is this hard to precise talking about, but I&rsquo;m imagining someone, like, they think they&rsquo;ve got their utility function figured out. So they have like, a stable house in a suburb, and like a nice suburb of Boston or something. Yeah. And they, they set up all these things, because they know like, it gives them this amount of utility. Yeah. And they&rsquo;re, they&rsquo;re just like, very much like, this is the way that my life has to be because this is the way that is optimal. Yeah. And then the world inevitably changes. And they&rsquo;re like, like, I am not in an optimal. I am not an equilibrium, like I&rsquo;m suffering and they they suffer.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. It&rsquo;s like, this pursuit of optimum just causes you pain.</p>
+<p><em>Max</em>  52:16</p>
+<p>I think it&rsquo;s a there&rsquo;s a double edged sword here. One is you don&rsquo;t know what optimum is. Yeah. And the other is that the very strong pursuit of it leads you to hurt yourself or to cause pain.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. And I think like yourself pain. Yeah, yeah. And even if it&rsquo;s not a very strong pursuit, I think like, yeah, this sort of like, this sort of framing might just like, take away some of the joy. An excitement.</p>
+<p><em>Max</em></p>
+<p>But I mean, thinking about problems can be fun, too. That&rsquo;s yeah, thinking about the problem. decision theory.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. As if you&rsquo;re just doing it for fun. Yeah. Yeah. I do feel like it&rsquo;s like. Yeah, I&rsquo;m just in no way like, afraid of like having my life to figure it out. Like, if I very defined the true utility function. Yeah. Then it just kind of feels boring when you&rsquo;re like, just trying to optimize for this target. Like, it&rsquo;s not.</p>
+<p><em>Max</em>  1:08:27</p>
+<p>I mean, I think it should. Yeah, well, it is boring. And it&rsquo;s also, I think, like, incoherent to think that there&rsquo;s a true utility function. Yeah. True utility function. For who? For you now, for you in 10 years.</p>
+<h4 id="our-‘utility-function’-changes-over-time">Our ‘utility function’ changes over time</h4>
+<p><em>Tuomas</em></p>
+<p>Yeah. Like that&rsquo;s, and also like, oh, yeah, a lot of decision theory also assumes that the utility function is fixed for an agent. Yeah. But that&rsquo;s yeah, I don&rsquo;t think that&rsquo;s true at all. And the problem is, like, it doesn&rsquo;t just like very a long time, and like, predictable way. What is lightspace? The actions you take, change your future utility function, right. I think that breaks the whole thing, actually. Yeah. How do you account for varying utility function? Should you take the actions that make you have a utility function that like, is the easiest to?</p>
+<p><em>Max</em></p>
+<p>Yeah, I mean, people talking about this the vampire problem. Like, as silly think of vampire prom, but yeah, obviously, the problem of having kids you know, like, should you have kids is typical quandary people have Yeah, and the whole problem is that people who have kids from the outside look like they&rsquo;re miserable, but you ask them and they&rsquo;re like, actually, this is so meaningful.</p>
+<p><em>Tuomas</em></p>
+<p>And so yeah, like says this. Yeah. And</p>
+<p><em>Max</em></p>
+<p>they&rsquo;re like, if if they hadn&rsquo;t had kids, they would think that their decision was like, like, basically, in both ways, you think that the other person is worse off? So if you don&rsquo;t have kids, you&rsquo;re like, Wow, I&rsquo;m glad I&rsquo;m not suffering like that. And then because you&rsquo;re Like, quote unquote utility function is more similar. But when you do have kids like your quote unquote utility function changes, and you start to like, really enjoy what looks like</p>
+<p><em>Tuomas</em></p>
+<p>suffering. Yeah, like you, you value different things because you have kids. Right.</p>
+<p><em>Max</em></p>
+<p>Deeply changed as a result. Yeah. And so how are you supposed to evaluate that? When it&rsquo;s like a different being in the future? You know?</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, it&rsquo;s super interesting question.</p>
+<p><em>Max</em></p>
+<p>A lot of problems.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, it&rsquo;s falling apart here. Yeah. So what do you say? How, how should you live your lives? Like, yeah, should even think of things in terms of decisions. I think there&rsquo;s like certain, certain situations where there are decisions like, like, in certain cases, it makes sense. Like, you sort of have options and like, it determines some part of your life, like, where should you go to school? Or? I don&rsquo;t know. Like, it seems like, some things are more decision or like, Yeah, clearly like decision like, and maybe you should like, analyze them a little more rigorously.</p>
+<p><em>Max</em></p>
+<p>Yeah. So I think the definitely systems are helpful decision theory is a potentially helpful system. I don&rsquo;t think I would ever try to put explicit utility on things. But I would try to write out different scenarios. Going to, when you&rsquo;re when I&rsquo;m trying to think about, you know, what school I should go to? Yeah, I was like, between Columbia and MIT. And I never wrote it down explicitly, but I think, I mean, I was I was thinking about this in my head, what it would mean to go to, to one over the other? What would that imply about my future, what skills I would gain? Yeah, and I did kind of have a pro and con list. I think that that is, in general, a very useful thing to do. So my feeling is that it&rsquo;s very, very helpful to have skill and training in technical, formal tools. So learn it, they deeply learn it, be able to apply it, and then kind of forget about it. And don&rsquo;t try to use it as a framework for your life. But allow it to come up if it is appropriate in the situation, because your whole body, your like your mind and your body is is very, very good at understanding context and drawing up the useful thing to do there.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, yeah.</p>
+<p><em>Max</em></p>
+<p>Yeah, I guess the more game like this scenario, the more clearly helpful it is to use decision.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah. Yeah, like you can make. Yeah, I think the main issue is like, it&rsquo;s really not that much decision theory, just like the idea of utility functions. And like, if you don&rsquo;t have a utility function, then like decision theory doesn&rsquo;t really can&rsquo;t really tell you how to do anything.</p>
+<p><em>Max</em></p>
+<p>Yeah, too bad. We don&rsquo;t have utility functions. Yeah. But it is useful to think of it as though we do in certain situations. Like financial accounting. Yeah. Trying to calculate net present value between two projects. That is, that is a certain decision theory that I think is really helpful. Yeah. Because you don&rsquo;t particularly care if you&rsquo;re building a power plant in, in like, Kenya, or Zimbabwe or something? Yeah. He doesn&rsquo;t materially mean, maybe you might care for other reasons. Or maybe you should care. But yeah. And he&rsquo;s in a situation like that.</p>
+<p><em>Tuomas</em></p>
+<p>Yeah, I think it&rsquo;s like, the more removed it is from like, kind of personal things, right. And like, feeling since less kind of detailed knowledge you have on it, then like maybe the more useful it is, like, like, if you&rsquo;re thinking about money, then like, it&rsquo;s a pretty good framework, right? Or, like, if you&rsquo;re, you know, if you&rsquo;re a leader making decisions over a large population, yeah. Then you would just kind of estimate that like, you know, certain things are good like, you know, Other people&rsquo;s people&rsquo;s lives have like, like, equal value or something. And like that could be a rough utility function that kind of, kind of can guide your decisions. Yeah. But yeah, when it comes to like, personal personal decisions are like decisions where there&rsquo;s like many factors that kind of like, can&rsquo;t be compared with each other. I think it&rsquo;s sort of a hopeless pursued. Try to use decision theory. And there, maybe there just isn&rsquo;t a right way to make those choices.</p>
+<p><em>Max</em></p>
+<p>Yeah, I mean, a right way would imply Yeah,</p>
+<p><em>Tuomas</em></p>
+<p>yeah. Like, yeah, like, rational. So maybe there&rsquo;s, like, you know, there&rsquo;s no wrong or right choice to be made.</p>
+<p><em>Max</em></p>
+<p>I mean, it&rsquo;s, it&rsquo;s sometimes</p>
+<p><em>Tuomas</em></p>
+<p>you can make wrong choices, right? Yeah. You can make</p>
+<p><em>Max</em></p>
+<p>wrong choices, but</p>
+<p><em>Tuomas</em></p>
+<p>I don&rsquo;t. Yeah. Maybe a lot of the choices are on par. But some are not.</p>
+<p><em>Max</em></p>
+<p>You&rsquo;re still thinking like a decision theoretic versus trying to patch it.</p>
+<p><em>Tuomas</em></p>
+<p>Right. I didn&rsquo;t know I think it&rsquo;s like, like, kind of my personal maybe how I would live my life is like thinking about something like this. Like, you could like list down sort of like your expected consequences for different actions. And then you just get like a gut feeling of like, how do I feel about the total of all this where it&rsquo;s just a total of all bad? Yeah. And a lot of the time you can be like this, this some seems better to me than this thing. But sometimes you&rsquo;re like, Well, this is different. I don&rsquo;t really know.</p>
+<p><em>Max</em></p>
+<p>Okay, I think this concludes our just, yeah, discussion on decision theory.</p>
+<p><em>Tuomas</em></p>
+<p>On the top of the mountain,</p>
+<p><em>Max</em></p>
+<p>on the top, on the top of the mountain, in San Diego, yes. Good conversation.</p>
+<!-- Footnotes themselves at the bottom. -->
+<h2 id="notes">Notes</h2>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>I now think see that decision theory is far more influential than I had initially realized. It embeds within it core assumptions for large swathes of economics, cognitive science, analytic philosophy. Really anything that refers to a ‘rational agent’ relies on some form of decision theory. I now believe that there can be no fundamentally coherent decision theory, and by implication, that anything based on the problematic ‘rational agent’ is ‘built on shifting sands’, so to speak.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    <hr>
+    <div class="container text-center">
+        
+            <a href="https://twitter.com/mslkmp" class="fab fa-twitter fa-1x" title="Twitter"></a>
+        
+            <a href="https://www.linkedin.com/in/max-langenkamp-2aa6b435/" class="fab fa-linkedin fa-1x" title="LinkedIn"></a>
+        
+            <a href="mailto:maxlangenkamp@me.com" class="fas fa-envelope fa-1x" title="E-mail"></a>
+        
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://github.com/ojroques/hugo-researcher" title="By Max Langenkamp"><small>By Max Langenkamp</small></a>
+        </div>
+    
+</div>
+</body>
+</html>

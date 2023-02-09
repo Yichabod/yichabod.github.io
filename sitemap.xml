@@ -21,9 +21,6 @@
     <loc>https://yichabod.github.io/book_reviews/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://yichabod.github.io/decision_theory/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>https://yichabod.github.io/posts/2021_review/</loc>
   </url><url>
     <loc>https://yichabod.github.io/posts/age_of_ambition/</loc>
@@ -35,6 +32,8 @@
     <loc>https://yichabod.github.io/posts/dairik_zen_practice/</loc>
   </url><url>
     <loc>https://yichabod.github.io/posts/decentralized_governance/</loc>
+  </url><url>
+    <loc>https://yichabod.github.io/posts/decision_theory/</loc>
   </url><url>
     <loc>https://yichabod.github.io/posts/disgrace/</loc>
   </url><url>

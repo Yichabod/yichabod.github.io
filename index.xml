@@ -51,16 +51,6 @@ A brief note before I get to the questions: as David Levi-Faur points out in the
     
     <item>
       <title></title>
-      <link>https://yichabod.github.io/decision_theory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yichabod.github.io/decision_theory/</guid>
-      <description>Down and Out with Decision Theoretic Frameworks Context: In my final year at MIT, I took a philosophy seminar on decision theory hoping to learn about logic, AI alignment, rationality. More prosaically, I wanted to simply learn how to make better decisions. After dozens of hours of reading and writing philosophy papers, I left disappointed.
-Purpose: Notes:</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://yichabod.github.io/posts/2021_review/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -122,6 +112,16 @@ Max 0:09</description>
 Enoshima in Sagami Province, from the series &amp;ldquo;Thirty-six Views of Mount Fuji (富嶽三十六景)&amp;rdquo;
 At the beginning of the Tokugawa shogunate (1600-1868), there were several agrarian villages in the Yamanashi prefecture. During the civil wars that led to the overthrow of the Ashikaga shogunate, vast swathes of land became commons — the open fields belonged to no feudal lord1.
 Amid this free-for-all, some villagers began to take more than their due — reaping more rice crops than was sustainable, cutting down trees than could naturally regrow.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yichabod.github.io/posts/decision_theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/decision_theory/</guid>
+      <description>Objecting to Decision Theory Two years ago, Tuomas and I took a seminar on decision theory taught by Caspar Hare. I was hoping to learn how to make better decisions, or else see what all the rationalist hype was about1. Tuomas was interested in its applications to AI safety.
+As the zealous intellectuals, Tuomas and I were allured by the taste of abstract thought experiments that grew more bizarre and dizzying as we read onwards.</description>
     </item>
     
     <item>
@@ -193,11 +193,12 @@ Summary This post is authored by Max Langenkamp, who did this research during hi
       
       <guid>https://yichabod.github.io/writing/</guid>
       <description>Essays See also my Book Reviews.
+Objecting to Decision Theory February 9th, 2023
+A friend and I share our beef with decision theory.
 Do what you want to become January 19th, 2023
 A snippet of thought, about careers and ways of being.
 Choosing a therapy December 8th, 2022
-I provide my opinion on a small subset of modalities, informed by two years of (nonprofessional) exploration. Helpful for people trying to navigate therapy or ‘self-healing&#39;, or if they are me two years ago.
-How Open Source Machine Learning Software Shapes AI September 27th, 2022</description>
+I provide my opinion on a small subset of modalities, informed by two years of (nonprofessional) exploration. Helpful for people trying to navigate therapy or ‘self-healing&#39;, or if they are me two years ago.</description>
     </item>
     
     <item>
