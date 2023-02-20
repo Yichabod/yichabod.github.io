@@ -66,11 +66,33 @@ Random notes:
     
     <item>
       <title></title>
+      <link>https://yichabod.github.io/posts/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/automation/</guid>
+      <description>Automation and institutional resistance re Adam Marblestone’s ‘General automation, and Science’
+Adam Marblestone has a thought-provoking post on how much he expects AI to speed up science. He suggests breaking down skills into three types (types 1, 2, and 3).
+Type 1 skills operate in ‘kind’1, game-like domains (Chess, Go, etc). Type 2 skills have lots of demonstration data but not obvious score (e.g. writing essays in response to prompts). Type 3 basically refers to everything else (‘wicked’ tasks like e.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://yichabod.github.io/posts/become_career/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yichabod.github.io/posts/become_career/</guid>
       <description>Do what you want to become I was listening to a childhood friend talk about his business’ financials when I had a realization; the thing that is so insidious about many who orient their lives around a standardized career (I have in mind my father&amp;rsquo;s career as an investment banker) is not so much that it wastes the golden years of their lives, or that they per se lose the activities and hobbies that were so dear to them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yichabod.github.io/posts/better_without_ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/better_without_ai/</guid>
+      <description>On David Chapman&amp;rsquo;s &amp;ldquo;Better Without AI&amp;rdquo; Loving David Chapman&amp;rsquo;s latest book on AI risk. I’ve been thinking about this since 2017 and the book clarified a lot of confusion I had, particularly around how we conceive of AI (though I have some objections too). Thread: 1/
+My favorite parts of the book:
+  “Agency” is a nebulous and confusing concept. Our discussions (e.g. the tool vs AI debate) are contentious because our intuitions are confused.</description>
     </item>
     
     <item>
@@ -110,7 +132,7 @@ Amid this free-for-all, some villagers began to take more than their due — rea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yichabod.github.io/posts/decision_theory/</guid>
-      <description>Objecting to Decision Theory Two years ago, Tuomas and I took a seminar on decision theory taught by Caspar Hare. I was hoping to learn how to make better decisions, or else see what all the rationalist hype was about1. Tuomas was interested in its applications to AI safety.
+      <description>Objecting to Decision Theory Two years ago, my friend Tuomas and I took a seminar on decision theory taught by Caspar Hare. I was hoping to learn how to make better decisions, or else see what all the rationalist hype was about1. Tuomas was interested in its applications to AI safety.
 As the zealous intellectuals, Tuomas and I were allured by the taste of abstract thought experiments that grew more bizarre and dizzying as we read onwards.</description>
     </item>
     

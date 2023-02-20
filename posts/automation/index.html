@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <meta name="description" content="Max&#39;s personal website">
+    <meta name="author" content='Max Langenkamp'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://yichabod.github.io/favicon.ico">
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://yichabod.github.io" title="Max Langenkamp">
+          
+          Max Langenkamp
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/writing" title="writing">
+                        writing
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/projects" title="projects">
+                        projects
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://maxlangenkamp.substack.com/" title="newsletter">
+                        newsletter
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://twitter.com/mslkmp" title="twitter">
+                        twitter
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="automation-and-institutional-resistance">Automation and institutional resistance</h1>
+<p><em>re Adam Marblestone’s ‘General automation, and Science’</em></p>
+<p>Adam Marblestone has a thought-provoking <a href="https://longitudinal.blog/2023/01/10/general-automation-and-science/">post</a> on how much he expects AI to speed up science. He suggests breaking down skills into three types (types 1, 2, and 3).</p>
+<p>Type 1 skills operate in ‘kind’<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, game-like domains (Chess, Go, etc). Type 2 skills have lots of demonstration data but not obvious score (e.g. writing essays in response to prompts). Type 3 basically refers to everything else (‘wicked’ tasks like e.g. automating a warehouse).</p>
+<p>Technical feasibility is a necessary but not sufficient condition for automation. Marblestone’s model is helpful but I think it would benefit from adding a component. I’ll call this <em>institutional friction</em><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<h3 id="automation-often-requires-institutions-to-adapt">Automation often requires institutions to adapt</h3>
+<p>Back when I was first introduced to deep learning in 2017, the task that was all the rage was predicting whether a given chest X-ray had a tumor. Since diagnosing X-rays is a type 2 skill, it shouldn’t be a surprise that we soon saw <a href="https://www.nature.com/articles/s41586-019-1799-6.epdf?sharing_token=tdtY2hFG1HJfaboE0pOQ1tRgN0jAjWel9jnR3ZoTv0M5zwPVx5jT4z_z-YkUZTBTbM27UWphyoF6vHoR667kKgqCi8GNWj2oxgaEK9QGM_J8TQydlaQ1nMXBUQrsn-83UCUXO7SuwGbD3s5OuqoOSNwRSESFwlfAfcnd7hRZOIeMaq8iogyPZ0Vk6Nv-wGyC51YHKn17_cu-KM0xhudbaQ%3D%3D&amp;tracking_referrer=www.bbc.com">CNNs doing better than radiologists</a> in <a href="https://www.nature.com/articles/s41746-019-0189-7">controlled settings</a>. Yet we still don’t see deep learning models widely used in clinical diagnosis. I claim that the reasons for this are mostly rooted in institutional friction, rather than technological inadequacy.</p>
+<p>New technologies often face barriers at the legal, social, and organizational level. The software might <a href="https://radiologybusiness.com/topics/artificial-intelligence/legal-considerations-artificial-intelligence-radiology-and">not be approved by the FDA</a>. HIPAA-like privacy may prevent its use in some states. The hospital’s insurance policy might balk at the new technology. Radiologists might refuse to use the new tool.</p>
+<p>Before a technology is deployed in a given setting, there has to be consensus among the people who adopt the technology. As evidenced by the examples above, many of their considerations are neither economic nor technological.</p>
+<h3 id="difficulties-facing-scientific-automation">Difficulties facing scientific automation</h3>
+<p>I gave an example in healthcare because those problems are more legible to me. Marblestone specifically asks about science, so I’ll throw in my two cents.</p>
+<p><strong>1: Research closer to humans faces more institutional friction.</strong></p>
+<p>The Belmont Report has jurisdiction over research involving human subjects. It demands procedures like getting informed consent before proceeding<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. This slows down the rate of research but also puts an absolute cap on research speed; no matter how quickly you submit the IRB, you still need to wait for their approval.</p>
+<p>Beyond interactions with internal review boards, which uphold the Belmont Review, human research is legally risky (they might sue you) and finicky (you can’t really control the human living environment very well).</p>
+<p>If experimentation speedup happens in science, I would be quite surprised if human-facing research was at the forefront of that speedup.</p>
+<p><strong>2: Science automation will continue at a similar pace</strong></p>
+<p>The bottleneck is not performing the tasks — there is already heavy machine automation, but ‘metarational’ considerations like “should I run this assay again because it looks weird?” or else the speed of reality (i.e. Zebrafish still take 3 months until adulthood).</p>
+<p>I’ll also quote from David Chapman’s <a href="https://betterwithout.ai/limits-to-induction#fn_mark_small">writing on the limits to experimental induction</a>:</p>
+<blockquote>
+<p>Inductive reasoning blesses data as knowledge using formal methods. There is no generally correct way of doing this. A statistical analysis is sound only relative to unavoidable assumptions that cannot be justified rationally; particularly a small-world assumption that limits what factors it considers. Those assumptions must be chosen meta-rationally. This means the “artificial scientist” project is quite different from what is usually imagined, and probably much more difficult. We have much less idea how to automate meta-rationality than rationality…</p>
+</blockquote>
+<blockquote>
+<p>Large-scale laboratory automation is already in routine use in pharmaceutical discovery. It is of some value, but no magic bullet. Scaling it up by building or buying way more robots is perfectly feasible, and wouldn’t be expensive on the scale of pharmaceutical research costs. We don’t do that because it wouldn’t help. Robot count is not a bottleneck.</p>
+</blockquote>
+<p>I don’t expect science in general to be automated at a significantly different rate with the rise of ‘paradigm models’ but before putting numbers down, I would want to much more narrowly specify the domain.</p>
+<h3 id="on-assuming-linearity-of-progress-in-speeding-up-science">On assuming linearity of progress in speeding up science</h3>
+<p>I feel pretty suspicious about the following reasoning:</p>
+<blockquote>
+<p>Let’s say that the coding part of robotics progress is highly <strong>elastic</strong> relative to the above “Best of Existing Skills Instantaneously in Anyone’s Browser” model of AI-induced changes in the world, and speeds by 10x, but that the in the lab hardware testing part of robotics is less elastic and only speeds by 2x. Let’s suppose that that right now these two components — the highly elastic coding part of robotics R&amp;D, and the less elastic in the lab testing part — take about the same amount of time, R. That’s R/2/2 + R/2/10 = 3x speedup of robotics overall… So that means we are perhaps about 10 to 15 years away from a level of lab automation that we’d be expecting otherwise 30+ years from now</p>
+</blockquote>
+<p>In the 60s, mathematician Dietrich Braess discovered that in many cases, adding a road to road network can actually slow down overall traffic flow<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. At least <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841822/">one scientist</a> found a biological system with a similar phenomenon<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. I wonder if something similar could be said of automation and science. In either case, at the very least what Braess’ paradox suggests to me is that there are often complicated nonlinear interactions when networks are altered, and that it is perhaps best to think through a couple of concrete scenarios and backtest the model that Marblestone proposes first before even relying on its logic as intuition.</p>
+<p>P.S.</p>
+<p>“it is obviously false that all possible discoveries with given tech level are mapped out- just had a multi-hour conversation about basic experiments in bacterial growth + metabolism that could have been done in the 60s or even the 40s and yet surprisingly have never been done…” see more in <a href="https://twitter.com/strandbergbio/status/1624442492157411330">Adam Strandberg’s tweet thread</a>. <br>
+This implies to me that the bottleneck is not the rate of experimentation but something more like ‘framing’ / ‘asking the right questions’. This is akin to what Chapman refers to as ‘metarational considerations’.</p>
+<hr>
+<p>If you liked this essay, feel free to follow my writing updates <a href="https://maxlangenkamp.substack.com">here</a>.</p>
+<p><strong>Acknowledgements</strong></p>
+<p>Thank you to Soren Bouma and Teddy Collins, for the conversation that clarified my point about institutional adaptation. Thank you to Nick Stares for the proofread.</p>
+<!-- Footnotes themselves at the bottom. -->
+<h3 id="notes">Notes</h3>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>To borrow from Rittel and Webber’s (1973) terminology in <em>A General Theory of Planning</em>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Note here that I’m loosely using ‘institution’ in the sense described by Elinor Ostrom. Roughly, it can be thought of as a collection of common knowledge rules. This captures everything from the U.S. legal system to the radiologists’ standards at the Mount Sinai hospital. See Ostrom and Crawford’s “A Grammar of Institutions”, or my summary for more detail: maxlangenkamp.me/posts/institution&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>I’m glad the Belmont report exists. It’s a good example of institutional learning after the inhumane <a href="https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study">Tuskegee Syphilis Study</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>In the new situation, the Nash equilibrium does not equate to the optimal flow through the network. In reality, I wonder if the increased supply of road leads generally&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>The paper I linked uses a corollary of Braess’ paradox; that removing an edge can conversely lead to improved network performance.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    <hr>
+    <div class="container text-center">
+        
+            <a href="https://twitter.com/mslkmp" class="fab fa-twitter fa-1x" title="Twitter"></a>
+        
+            <a href="https://www.linkedin.com/in/max-langenkamp-2aa6b435/" class="fab fa-linkedin fa-1x" title="LinkedIn"></a>
+        
+            <a href="mailto:maxlangenkamp@me.com" class="fas fa-envelope fa-1x" title="E-mail"></a>
+        
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://github.com/ojroques/hugo-researcher" title="By Max Langenkamp"><small>By Max Langenkamp</small></a>
+        </div>
+    
+</div>
+</body>
+</html>
