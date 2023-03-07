@@ -70,7 +70,7 @@ Random notes:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yichabod.github.io/posts/automation/</guid>
-      <description>Automation and institutional resistance re Adam Marblestone’s ‘General automation, and Science’
+      <description>Automation and institutional friction re Adam Marblestone’s ‘General automation, and Science’
 Adam Marblestone has a thought-provoking post on how much he expects AI to speed up science. He suggests breaking down skills into three types (types 1, 2, and 3).
 Type 1 skills operate in ‘kind’1, game-like domains (Chess, Go, etc). Type 2 skills have lots of demonstration data but not obvious score (e.g. writing essays in response to prompts). Type 3 basically refers to everything else (‘wicked’ tasks like e.</description>
     </item>
@@ -177,6 +177,16 @@ Summary This post is authored by Max Langenkamp, who did this research during hi
       <guid>https://yichabod.github.io/posts/skunk_works/</guid>
       <description>Source/Author (year): Ben Rich (1996)
  Overview  A biography of one of the most innovative organizations in the world; the Skunk Works branch of Lockheed. A great treatise on the aerospace industry, how military contracting works, the difficulties of bureaucracy, and how to manage people.   Notes  Kelly Johnson: a top secret classification increases costs 25% and vastly decreases efficiency Trusting a small team was key to Skunk Works success Quality control happened daily, in the form of self-checking, rather than at the end of the project as was standard elsewhere in the industry The Navy is far more stringent than the Air Force Kelly&amp;rsquo;s most important principles of operation:  Program manager needs full control of his project in all respects Number of people involved in any given project must be viciously restricted.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yichabod.github.io/posts/tech_not_inevitable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/tech_not_inevitable/</guid>
+      <description>Technology is not inevitable When talking to certain technologist friends about brain-computer interfaces and artificial general intelligence, I’m struck by how often I hear that such idea-complexes1 are referred to as ‘inevitable’.
+In this example, my friend (who I’ll use to represent the various people2 who’ve held this stance) basically says: ‘if it is physically possible, and there is economic incentive, it’ll happen’. Let’s put aside the initial question about the ambiguity of what counts as BCI/AGI.</description>
     </item>
     
     <item>
