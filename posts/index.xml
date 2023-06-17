@@ -66,6 +66,15 @@ Random notes:
     
     <item>
       <title></title>
+      <link>https://yichabod.github.io/posts/atomization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/atomization/</guid>
+      <description>Feeling into this moment, there’s a sad recognition of how spatially distant my community is. For the past year I’ve been living under the kindness of family and friends, lugging my bags and instrument from plane to plane and guest bed to carpeted floor. I’m about to move into my old apartment in Central Square, where I will be in the same room for three months — the longest stretch of stillness I’ve seen.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://yichabod.github.io/posts/automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -192,16 +201,6 @@ When did the humanities begin at MIT?</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yichabod.github.io/posts/mloss_essay/</guid>
-      <description>How Open Source Machine Learning Software Shapes AI Acknowledgements We would like to thank many different people for contributing to the research that comprised this post. Tim Hwang and Teddy Collins at CSET for originally sparking this research question, Helen Toner for her early encouragement and feedback on research framing, Tuomas Oikarinen for sharpening our arguments, Tan Zhi Xuan and Serena Booth for providing several helpful resources.
-Summary This post is authored by Max Langenkamp, who did this research during his MEng at MIT’s Algorithmic Alignment Group, and by Dylan Hadfield-Menell, associate professor and Max’s supervisor.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yichabod.github.io/posts/mloss_essayv2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yichabod.github.io/posts/mloss_essayv2/</guid>
       <description>How Open Source Machine Learning Software Shapes AI Acknowledgements We would like to thank many different people for contributing to the research that comprised this post. Tim Hwang and Teddy Collins at CSET for originally sparking this research question, Helen Toner for her early encouragement and feedback on research framing, Tuomas Oikarinen for sharpening our arguments, Tan Zhi Xuan and Serena Booth for providing several helpful resources.
 Summary This post is authored by Max Langenkamp, who did this research during his MEng at MIT’s Algorithmic Alignment Group, and by Dylan Hadfield-Menell, associate professor and Max’s supervisor.</description>
     </item>
