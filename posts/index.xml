@@ -158,6 +158,16 @@ Beautifully written. An excellent example of spare yet striking prose.
     
     <item>
       <title></title>
+      <link>https://yichabod.github.io/posts/email_spoof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/email_spoof/</guid>
+      <description>Trying (and Failing) to Spoof Hotmail Suppose one day you were bored and began to examine emails in the raw packet form. You would see something like
+Received: from mail-qr1-x642.google.com (mail-qr1-x642.google.com [IPv6:2607:f8b0:4864:20::642]) by mxa.mail.yahoo.com with SMTPS id 5fb88148210cz.64.2019.07.11.16.33.39 (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Thu, 11 Jul 2019 16:33:39 +0000 (UTC) Received-SPF: pass (domain of google.com designates 2607:f8b0:4864:20::642 as permitted sender) client-ip=2607:f8b0:4864:20::642; Authentication-Results: mxa.mail.yahoo.com; dkim=pass header.i=@google.com DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=20161025; h=mime-version📅message-id:subject:from:to; bh=dZZ/1uN7EMoYbtIRVtP6loc8vk6vg2vW23aa5iTM0HU=; b=SpbOlScW2KZD1wL30zfL.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://yichabod.github.io/posts/energy_longevity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

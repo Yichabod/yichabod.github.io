@@ -168,6 +168,16 @@ Beautifully written. An excellent example of spare yet striking prose.
     
     <item>
       <title></title>
+      <link>https://yichabod.github.io/posts/email_spoof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichabod.github.io/posts/email_spoof/</guid>
+      <description>Trying (and Failing) to Spoof Hotmail Suppose one day you were bored and began to examine emails in the raw packet form. You would see something like
+Received: from mail-qr1-x642.google.com (mail-qr1-x642.google.com [IPv6:2607:f8b0:4864:20::642]) by mxa.mail.yahoo.com with SMTPS id 5fb88148210cz.64.2019.07.11.16.33.39 (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Thu, 11 Jul 2019 16:33:39 +0000 (UTC) Received-SPF: pass (domain of google.com designates 2607:f8b0:4864:20::642 as permitted sender) client-ip=2607:f8b0:4864:20::642; Authentication-Results: mxa.mail.yahoo.com; dkim=pass header.i=@google.com DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=20161025; h=mime-versionðŸ“…message-id:subject:from:to; bh=dZZ/1uN7EMoYbtIRVtP6loc8vk6vg2vW23aa5iTM0HU=; b=SpbOlScW2KZD1wL30zfL.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://yichabod.github.io/posts/energy_longevity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -296,7 +306,7 @@ In this example, my friend (who Iâ€™ll use to represent the various people2 whoâ
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yichabod.github.io/projects/</guid>
-      <description>Projects  plugging in a USB: what&amp;rsquo;s the worst that can happen?. Where some friends and I use a Raspberry Pi Zero to inject malicious keystrokes into my computer. For MIT&amp;rsquo;s Computer Systems Security class (6.858). deep learning with satellite data. A writeup of the landslide detection project I did as a visiting researcher at University of Sannio. building an arduino sleep tracking device. An IoT project I did in Freshman year with some friends for MIT&amp;rsquo;s Embedded Systems class (6.</description>
+      <description>Projects  patriot proteins. Hold the Declaration of Independence as a 3D printed protein in your hand. plugging in a USB: what&amp;rsquo;s the worst that can happen?. Where some friends and I use a Raspberry Pi Zero to inject malicious keystrokes into my computer. For MIT&amp;rsquo;s Computer Systems Security class (6.858). deep learning with satellite data. A writeup of the landslide detection project I did as a visiting researcher at University of Sannio.</description>
     </item>
     
     <item>
@@ -305,13 +315,13 @@ In this example, my friend (who Iâ€™ll use to represent the various people2 whoâ
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yichabod.github.io/writing/</guid>
-      <description>Essays See also my Book Reviews. Sartorial Display July 1st, 2023
+      <description>Essays See also my Book Reviews. (Not) Spoofing Hotmail July 21st, 2023
+In which a friend and I try and fail to spoof an expired email protocol.
+Sartorial Display July 1st, 2023
 Wearing clothing deliberately.
 The Legacy and Experience of MIT: Safetyism, the Nixon enemy list, and the loss of innocence with Luke Igel June 16th, 2023
 Luke and I talk about our experience at MIT and its history.
-Energy Practice as Longevity Intervention March 18th, 2023
-Cultivating energy capacity can increase your subjective lifespan.
-Implicit-explicit gradient of nondual awareness or consciousness-as-such March 17th, 2023</description>
+Energy Practice as Longevity Intervention March 18th, 2023</description>
     </item>
     
     <item>
